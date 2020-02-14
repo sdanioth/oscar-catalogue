@@ -1,0 +1,16 @@
+# caches and byte-complied code
+__pycache__*
+*.pyc
+
+
+# sqlite3 database file
+*.sqlite3
+
+# yaml config file
+# *config*.yaml
+
+# anything to to with Spyder
+*.spy*
+
+# log files
+*.log

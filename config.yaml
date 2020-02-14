@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+
+# logging
+logging: ~/git/oscar-instrument-catalogue/logging
+
+# source file
+source: ~/git/oscar-instrument-catalogue/example-instrument-catalogue.csv
+# target file
+target: ~/git/oscar-instrument-catalogue/example-instrument-catalogue.xml
+
+# jinja2 template
+template: instrument-catalogue-template.html
+
+# header information
+individualName: Jörg Klausen
+organisationName: MeteoSwiss
+electronicMailAddress: joerg.klausen@meteoswiss.ch
+
+# security token
+token: here_goes_the_secret_token_needed_for_post_request

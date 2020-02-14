@@ -1,0 +1,7 @@
+manufacturer,model,observedVariable,observingMethod,observableRange,specifiedAbsoluteUncertainty,specifiedRelativeUncertainty,driftPerUnitTime,specificationLink,observingMethodDetails
+Selex ES,METEOR 700C,"210, 212, 213, 215",325,200 km,,,,http://www.de.selex-es.com/selex_de/documents/16243296/28249418/Kopie%20von%20Selex-ES-METEOR-700C-735C.pdf,"Transmitter: Coaxial Magnetron with solid state, IGBT-switched
+modulator; Receiver: Superheterodyne, dual downconversion"
+Horiba,APNA-370,"395, 396, 397",290,0-0.1/0.2/0.5/1.0 ppm,,Repeatability: ±1.0% of F.S.,,https://www.horiba.com/us/en/process-environmental/products/process/air-quality-monitoring/details/apna-370-ambient-nox-monitor-274/,cross-flow modulated semi decompression chemiluminescence
+Eppley EPLAB,TUVR,356,339,Spectral Range: 295-385 nm,< 5 Wm-2,"5% (hourly), 2% (daily)",,http://www.eppleylab.com/instrument-list/total-ultraviolet-radiometer/,
+SRI Instruments,8690-0009 RGD detector,205,302,,,,,"https://srigc.com/home/product_detail/rgd---reduction-gas-detector",
+SRI Instruments,8690-0009 RGD detector,284,302,,,,,"https://srigc.com/home/product_detail/rgd---reduction-gas-detector",
