@@ -12,6 +12,9 @@ import time
 import csv
 import html
 import jinja2
+import requests
+from requests.adapters import HTTPAdapter
+from requests.packages.urllib3.util.retry import Retry
 import uuid
 import yaml
 
@@ -65,6 +68,9 @@ class InstrumentCatalogue:
                     'individualName': config['individualName'],
                             'organisationName': config['organisationName'],
                             'electronicMailAddress': config['organisationName'] }
+
+            self.upload = config['upload']
+            self.proxies = config['proxies']
             self.token = config['token']
             
         except Exception as err:
@@ -117,15 +123,81 @@ class InstrumentCatalogue:
             if verbose:
                 self.logger.info("XML file saved to " + self.target)
                 
-            return()
+            return(self.target)
 
         except Exception as err:
             self.logger.error(err)
             return(err)
         
+        
+    def upload_wmdr(self, wmdr_file: str, verbose=True) -> str:
+        """
+        Upload WMDR XML using the OSCAR/Surface API.
+
+        Upload a WMDR XML file using the OSCAR/Surface API.
+
+        Parameters
+        ----------
+        wmdr_file : str
+            Qualified path to WMDR XML file
+        verbose : bln
+            should a logger be invoked? defaults to True
+
+        Returns
+        -------
+        str
+            http response code (200 if successful), error message otherwise
+        """
+        try:
+            url = self.upload
+            token = self.token
+            headers = {'X-WMO-WMDR-Token': token,
+                       'content-type': 'text/xml'}
+            msg = "Uploading XML file " + wmdr_file + " ... "
+            if verbose:
+                logger = logging.getLogger(__name__)
+                logger.info(msg)
+
+            with requests.Session() as session:
+                logging.getLogger("urllib3").setLevel(logging.WARNING)
+                retries = Retry(total=5,
+                                backoff_factor=0.3,
+                                status_forcelist=[500, 502, 503, 504])
+                session.mount('http://', HTTPAdapter(max_retries=retries))
+                session.mount('https://', HTTPAdapter(max_retries=retries))
+
+            with open(wmdr_file, 'r') as data:
+                response = session.post(url, proxies=self.proxies,
+                                        data=data.read(), headers=headers,
+                                        verify=False)
+
+                msg = str(response.content)
+
+                if response.status_code == 200:
+                    if verbose:
+                        logger.info(msg)
+                else:
+                    msg += "; token: " + str(token)
+                    if verbose:
+                        logger.warning(msg)
+
+                session.close()
+
+            return(response.status_code)
+
+        except requests.exceptions.HTTPError as err:
+            logger.error("Http Error:", err)
+        except requests.exceptions.ConnectionError as err:
+            logger.error("Error Connecting:", err)
+        except requests.exceptions.Timeout as err:
+            logger.error("Timeout Error:", err)
+        except requests.exceptions.RequestException as err:
+            logger.error("OOps: Something Else", err)
+        
 
 if __name__ == '__main__':
     config = os.path.join(os.getcwd(), 'config.yaml')
     instrument_catalogue = InstrumentCatalogue(config)
-    instrument_catalogue.csv2wmdr()
-    
+    xml_file = instrument_catalogue.csv2wmdr()
+    response = instrument_catalogue.upload_wmdr(xml_file)
+    print(response)
