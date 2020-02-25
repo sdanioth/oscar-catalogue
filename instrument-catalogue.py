@@ -70,7 +70,7 @@ class InstrumentCatalogue:
                             'electronicMailAddress': config['organisationName'] }
 
             self.upload = config['upload']
-            self.proxies = config['proxies']
+            # self.proxies = config['proxies']
             self.token = config['token']
             
         except Exception as err:
@@ -167,9 +167,9 @@ class InstrumentCatalogue:
                 session.mount('https://', HTTPAdapter(max_retries=retries))
 
             with open(wmdr_file, 'r') as data:
-                response = session.post(url, proxies=self.proxies,
-                                        data=data.read(), headers=headers,
-                                        verify=False)
+                response = session.post(url,
+                                        data=data.read(), 
+                                        headers=headers)
 
                 msg = str(response.content)
 
