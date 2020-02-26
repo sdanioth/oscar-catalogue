@@ -2,7 +2,11 @@
 <wmdr:WIGOSMetadataRecord xmlns:wmdr="http://def.wmo.int/wmdr/2017" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:om="http://www.opengis.net/om/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gml:id="id1" xsi:schemaLocation="http://def.wmo.int/wmdr/2017 http://schemas.wmo.int/wmdr/1.0RC9/wmdr.xsd">
 	<wmdr:headerInformation owns="false">
 		<wmdr:Header>
+<<<<<<< HEAD
 			<wmdr:fileDateTime>2020-02-25T18:00:18</wmdr:fileDateTime>
+=======
+			<wmdr:fileDateTime>2020-02-25T20:16:11</wmdr:fileDateTime>
+>>>>>>> d68406e74c5bc456354084baa949d61a33832523
 			<wmdr:recordOwner>
 				<CI_ResponsibleParty xmlns="http://www.isotc211.org/2005/gmd">
 					<individualName>
@@ -31,7 +35,11 @@
 	</wmdr:headerInformation>
     
 	<wmdr:equipment>
+<<<<<<< HEAD
 		<wmdr:Equipment gml:id="uuid-4cc7e7ca-57f0-11ea-9cf8-005056886d20">
+=======
+		<wmdr:Equipment gml:id="uuid-48c68db6-5803-11ea-b3c2-48ba4ef10d28">
+>>>>>>> d68406e74c5bc456354084baa949d61a33832523
 		<gml:identifier codeSpace="http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/210"></gml:identifier>
 			<wmdr:responsibleParty>
 				<wmdr:ResponsibleParty>
@@ -54,7 +62,11 @@
 	</wmdr:equipment>
 	
 	<wmdr:equipment>
+<<<<<<< HEAD
 		<wmdr:Equipment gml:id="uuid-4cc7e7cb-57f0-11ea-9cf8-005056886d20">
+=======
+		<wmdr:Equipment gml:id="uuid-48c68db7-5803-11ea-8b6d-48ba4ef10d28">
+>>>>>>> d68406e74c5bc456354084baa949d61a33832523
 		<gml:identifier codeSpace="http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/212"></gml:identifier>
 			<wmdr:responsibleParty>
 				<wmdr:ResponsibleParty>
@@ -77,7 +89,11 @@
 	</wmdr:equipment>
 	
 	<wmdr:equipment>
+<<<<<<< HEAD
 		<wmdr:Equipment gml:id="uuid-4cc7e7cc-57f0-11ea-9cf8-005056886d20">
+=======
+		<wmdr:Equipment gml:id="uuid-48c68db8-5803-11ea-bdeb-48ba4ef10d28">
+>>>>>>> d68406e74c5bc456354084baa949d61a33832523
 		<gml:identifier codeSpace="http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/213"></gml:identifier>
 			<wmdr:responsibleParty>
 				<wmdr:ResponsibleParty>
@@ -100,7 +116,11 @@
 	</wmdr:equipment>
 	
 	<wmdr:equipment>
+<<<<<<< HEAD
 		<wmdr:Equipment gml:id="uuid-4cc7e7cd-57f0-11ea-9cf8-005056886d20">
+=======
+		<wmdr:Equipment gml:id="uuid-48c68db9-5803-11ea-865b-48ba4ef10d28">
+>>>>>>> d68406e74c5bc456354084baa949d61a33832523
 		<gml:identifier codeSpace="http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/215"></gml:identifier>
 			<wmdr:responsibleParty>
 				<wmdr:ResponsibleParty>
@@ -123,7 +143,11 @@
 	</wmdr:equipment>
 	
 	<wmdr:equipment>
+<<<<<<< HEAD
 		<wmdr:Equipment gml:id="uuid-4cc7e7ce-57f0-11ea-9cf8-005056886d20">
+=======
+		<wmdr:Equipment gml:id="uuid-48c68dba-5803-11ea-8b7a-48ba4ef10d28">
+>>>>>>> d68406e74c5bc456354084baa949d61a33832523
 		<gml:identifier codeSpace="http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/395"></gml:identifier>
 			<wmdr:responsibleParty>
 				<wmdr:ResponsibleParty>
@@ -146,7 +170,11 @@
 	</wmdr:equipment>
 	
 	<wmdr:equipment>
+<<<<<<< HEAD
 		<wmdr:Equipment gml:id="uuid-4cc7e7cf-57f0-11ea-9cf8-005056886d20">
+=======
+		<wmdr:Equipment gml:id="uuid-48c68dbb-5803-11ea-bc1e-48ba4ef10d28">
+>>>>>>> d68406e74c5bc456354084baa949d61a33832523
 		<gml:identifier codeSpace="http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/396"></gml:identifier>
 			<wmdr:responsibleParty>
 				<wmdr:ResponsibleParty>
@@ -169,7 +197,11 @@
 	</wmdr:equipment>
 	
 	<wmdr:equipment>
+<<<<<<< HEAD
 		<wmdr:Equipment gml:id="uuid-4cc7e7d0-57f0-11ea-9cf8-005056886d20">
+=======
+		<wmdr:Equipment gml:id="uuid-48c68dbc-5803-11ea-95e5-48ba4ef10d28">
+>>>>>>> d68406e74c5bc456354084baa949d61a33832523
 		<gml:identifier codeSpace="http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/397"></gml:identifier>
 			<wmdr:responsibleParty>
 				<wmdr:ResponsibleParty>
@@ -192,7 +224,11 @@
 	</wmdr:equipment>
 	
 	<wmdr:equipment>
+<<<<<<< HEAD
 		<wmdr:Equipment gml:id="uuid-4cc7e7d1-57f0-11ea-9cf8-005056886d20">
+=======
+		<wmdr:Equipment gml:id="uuid-48c68dbd-5803-11ea-bef9-48ba4ef10d28">
+>>>>>>> d68406e74c5bc456354084baa949d61a33832523
 		<gml:identifier codeSpace="http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/356"></gml:identifier>
 			<wmdr:responsibleParty>
 				<wmdr:ResponsibleParty>
@@ -215,7 +251,11 @@
 	</wmdr:equipment>
 	
 	<wmdr:equipment>
+<<<<<<< HEAD
 		<wmdr:Equipment gml:id="uuid-4cc7e7d2-57f0-11ea-9cf8-005056886d20">
+=======
+		<wmdr:Equipment gml:id="uuid-48c68dbe-5803-11ea-a1b0-48ba4ef10d28">
+>>>>>>> d68406e74c5bc456354084baa949d61a33832523
 		<gml:identifier codeSpace="http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/205"></gml:identifier>
 			<wmdr:responsibleParty>
 				<wmdr:ResponsibleParty>
@@ -238,7 +278,11 @@
 	</wmdr:equipment>
 	
 	<wmdr:equipment>
+<<<<<<< HEAD
 		<wmdr:Equipment gml:id="uuid-4cc7e7d3-57f0-11ea-9cf8-005056886d20">
+=======
+		<wmdr:Equipment gml:id="uuid-48c68dbf-5803-11ea-93b4-48ba4ef10d28">
+>>>>>>> d68406e74c5bc456354084baa949d61a33832523
 		<gml:identifier codeSpace="http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/284"></gml:identifier>
 			<wmdr:responsibleParty>
 				<wmdr:ResponsibleParty>
