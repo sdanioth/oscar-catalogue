@@ -22,8 +22,8 @@ proxies : {"http": "http://proxy.meteoswiss.ch:8080",
            "https": "https://proxy.meteoswiss.ch:8080"}
 
 # API endpoints
-upload: https://oscardepl.meteoswiss.ch/surface/rest/api/wmd/upload/
+upload: "https://oscardepl.meteoswiss.ch/surface/rest/api/wmd/upload/"
 #upload: https://oscar.meteoswiss.ch/surface/rest/api/wmd/upload/
 
 # security token
-token: here_goes_the_secret_token_needed_for_post_request
+token: 4865d3ca-a3e2-4248-b6e5-a756b6fa7b0e
