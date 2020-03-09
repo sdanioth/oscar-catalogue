@@ -2,21 +2,21 @@
 <wmdr:WIGOSMetadataRecord xmlns:wmdr="http://def.wmo.int/wmdr/2017" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:om="http://www.opengis.net/om/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gml:id="id1" xsi:schemaLocation="http://def.wmo.int/wmdr/2017 http://schemas.wmo.int/wmdr/1.0RC9/wmdr.xsd">
 	<wmdr:headerInformation owns="false">
 		<wmdr:Header>
-			<wmdr:fileDateTime>{{ header['dtm'] }}</wmdr:fileDateTime>
+			<wmdr:fileDateTime>2020-03-09T14:50:23</wmdr:fileDateTime>
 			<wmdr:recordOwner>
 				<CI_ResponsibleParty xmlns="http://www.isotc211.org/2005/gmd">
 					<individualName>
-						<gco:CharacterString>{{ header['individualName'] }}</gco:CharacterString>
+						<gco:CharacterString>Jörg Klausen</gco:CharacterString>
 					</individualName>
 					<organisationName>
-						<gco:CharacterString>{{ header['organisationName'] }}</gco:CharacterString>
+						<gco:CharacterString>MeteoSwiss</gco:CharacterString>
 					</organisationName>
 					<gmd:contactInfo>
 						<gmd:CI_Contact>
 							<gmd:address>
 								<gmd:CI_Address>
 									<gmd:electronicMailAddress>
-										<gco:CharacterString>{{ header['electronicMailAddress'] }}</gco:CharacterString>
+										<gco:CharacterString>MeteoSwiss</gco:CharacterString>
 									</gmd:electronicMailAddress>
 								</gmd:CI_Address>
 							</gmd:address>
@@ -30,8 +30,8 @@
 		</wmdr:Header>
 	</wmdr:headerInformation>
 	<wmdr:equipment>
-		<wmdr:Equipment gml:id="uuid-{{ instrument['uuid'] }}">
-		<gml:identifier codeSpace="http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/{{ instrument['observedVariable'] }}"></gml:identifier>
+		<wmdr:Equipment gml:id="uuid-ec7c2f39-620c-11ea-9cf8-005056886d20">
+		<gml:identifier codeSpace="http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/284"></gml:identifier>
 			<wmdr:responsibleParty>
 				<wmdr:ResponsibleParty>
 					<wmdr:responsibleParty>
@@ -41,14 +41,14 @@
 					</wmdr:responsibleParty>
 				</wmdr:ResponsibleParty>
 			</wmdr:responsibleParty>
-			<wmdr:manufacturer>{{ instrument['manufacturer'] }}</wmdr:manufacturer>
-			<wmdr:model>{{ instrument['model'] }}</wmdr:model>
-			<wmdr:observingMethod xlink:href="http://codes.wmo.int/wmdr/ObservingMethodAtmosphere/{{ instrument['observingMethod'] }}"></wmdr:observingMethod>
-			<wmdr:observableRange>{{ instrument['observableRange'] }}</wmdr:observableRange>
-			<wmdr:specifiedAbsoluteUncertainty>{{ instrument['specifiedAbsoluteUncertainty'] }}</wmdr:specifiedAbsoluteUncertainty>
-			<wmdr:specifiedRelativeUncertainty>{{ instrument['specifiedRelativeUncertainty'] }}</wmdr:specifiedRelativeUncertainty>
-			<wmdr:driftPerUnitTime>{{ instrument['driftPerUnitTime'] }}</wmdr:driftPerUnitTime>
-			<wmdr:specificationLink>{{ instrument['specificationLink'] }}</wmdr:specificationLink>
+			<wmdr:manufacturer>SRI Instruments</wmdr:manufacturer>
+			<wmdr:model>8690-0009 RGD detector</wmdr:model>
+			<wmdr:observingMethod xlink:href="http://codes.wmo.int/wmdr/ObservingMethodAtmosphere/302"></wmdr:observingMethod>
+			<wmdr:observableRange>unknown</wmdr:observableRange>
+			<wmdr:specifiedAbsoluteUncertainty>unknown</wmdr:specifiedAbsoluteUncertainty>
+			<wmdr:specifiedRelativeUncertainty>unknown</wmdr:specifiedRelativeUncertainty>
+			<wmdr:driftPerUnitTime>unknown</wmdr:driftPerUnitTime>
+			<wmdr:specificationLink>https://srigc.com/home/product_detail/rgd---reduction-gas-detector</wmdr:specificationLink>
 		</wmdr:Equipment>
 	</wmdr:equipment>
 </wmdr:WIGOSMetadataRecord>

@@ -96,34 +96,35 @@ class InstrumentCatalogue:
         try:
             sanitize = lambda x: html.escape(x) if len(x) > 0 else 'unknown'
 
-            # read source file and convert to list of dictionaries, one for
-            # each instrument
-            instruments = []
-            with open(self.source) as f:
-                reader = csv.DictReader( f  )
-                for row in reader:
-                    var = 'observedVariable'
-                    d1 = { key: sanitize(row[key]) for key in row.keys() if key != var }
-                    for ele in row[var].split(','):
-                        d2 = {var: ele.strip(), 'uuid': uuid.uuid1()} 
-                        d2.update(d1)
-                        instruments.append(d2)
-                                   
             # read jinja template
             templateLoader = jinja2.FileSystemLoader(searchpath="./")
             templateEnv = jinja2.Environment(loader=templateLoader)
             template = templateEnv.get_template(self.template)
 
-            # generate XML file
-            xml = template.render(header=self.header, instruments=instruments)
-
-            with open(self.target, 'w') as f:
-                f.write(xml)
-                f.close()
-            if verbose:
-                self.logger.info("XML file saved to " + self.target)
+            # read source file and convert to list of dictionaries, one for
+            # each combination of manufacturer, model, variable
+            with open(self.source) as f:
+                reader = csv.DictReader( f )
+                files = []                
+                for row in reader:
+                    var = 'observedVariable'
+                    d1 = { key: sanitize(row[key]) for key in row.keys() if key != var }
+                    for ele in row[var].split(','):
+                        instrument = {var: ele.strip(), 'uuid': uuid.uuid1()} 
+                        instrument.update(d1)
+                                   
+                        # generate XML file
+                        xml = template.render(header=self.header, instrument=instrument)
+                        file = os.path.join(self.target, "%s %s %s.xml" % (instrument['manufacturer'], instrument['model'], instrument['observedVariable']))
+                        file = file.replace(" ", "_")
+                        files.append(file)                    
+                        with open(file, 'w') as f:
+                            f.write(xml)
+                            f.close()
+                        if verbose:
+                            self.logger.info("XML file saved to " + file)
                 
-            return(self.target)
+            return(file)
 
         except Exception as err:
             self.logger.error(err)

@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
 # logging
-logging: ~/git/oscar-instrument-catalogue/logging
+logging: ~/Public/git/oscar-instrument-catalogue/logging/
 
 # source file
-source: ~/git/oscar-instrument-catalogue/example-instrument-catalogue.csv
+source: ~/Public/git/oscar-instrument-catalogue/example-instrument-catalogue.csv
 
 # target file
-target: ~/git/oscar-instrument-catalogue/example-instrument-catalogue.xml
+target: ~/Public/git/oscar-instrument-catalogue/
 
 # jinja2 template
 template: instrument-catalogue-template.xml
@@ -18,9 +18,9 @@ organisationName: MeteoSwiss
 electronicMailAddress: joerg.klausen@meteoswiss.ch
 
 # API endpoints
-upload: https://oscardepl.wmo.int/surface/rest/api/wmd/upload/
+upload: https://oscardevt.meteoswiss.ch/surface/rest/api/wmd/upload/
 #upload: https://oscar.wmo.int/surface/rest/api/wmd/upload/
 
 # security token
-token: here-goes-the-security-token
+token: 7091380d-0014-4ebf-9f7d-0699dd4cf5e1
 
