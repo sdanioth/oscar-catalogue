@@ -70,7 +70,7 @@ class InstrumentCatalogue:
                             'electronicMailAddress': config['organisationName'] }
 
             self.upload = config['upload']
-            # self.proxies = config['proxies']
+            self.proxies = config['proxies']
             self.token = config['token']
             
         except Exception as err:
@@ -124,7 +124,7 @@ class InstrumentCatalogue:
                         if verbose:
                             self.logger.info("XML file saved to " + file)
                 
-            return(file)
+            return(files)
 
         except Exception as err:
             self.logger.error(err)
@@ -169,6 +169,7 @@ class InstrumentCatalogue:
 
             with open(wmdr_file, 'r') as data:
                 response = session.post(url,
+                                        proxies=self.proxies, 
                                         data=data.read(), 
                                         headers=headers)
 
@@ -199,6 +200,7 @@ class InstrumentCatalogue:
 if __name__ == '__main__':
     config = os.path.join(os.getcwd(), 'config.yaml')
     instrument_catalogue = InstrumentCatalogue(config)
-    xml_file = instrument_catalogue.csv2wmdr()
-    response = instrument_catalogue.upload_wmdr(xml_file)
-    print(response)
+    xml_files = instrument_catalogue.csv2wmdr()
+    for xml_file in xml_files:
+        response = instrument_catalogue.upload_wmdr(xml_file)
+        print(response)

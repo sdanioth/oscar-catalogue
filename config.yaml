@@ -21,6 +21,11 @@ electronicMailAddress: joerg.klausen@meteoswiss.ch
 upload: https://oscardevt.meteoswiss.ch/surface/rest/api/wmd/upload/
 #upload: https://oscar.wmo.int/surface/rest/api/wmd/upload/
 
+# proxies
+proxies : {"http": "http://here-goes-the-proxy-address:port-number",
+           "https": "https://here-goes-the-proxy-address:port-number"}
+
 # security token
-token: 7091380d-0014-4ebf-9f7d-0699dd4cf5e1
+token: here-goes-the-security-token
+
 
