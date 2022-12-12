@@ -22,5 +22,5 @@ upload: https://oscardepl.wmo.int/surface/rest/api/wmd/upload/
 #upload: https://oscar.wmo.int/surface/rest/api/wmd/upload/
 
 # security token
-token: here-goes-the-security-token
+token: faa3c383-2d57-49aa-b60d-14590ff08fc6
 
