@@ -13,12 +13,12 @@ target: ~/Public/git/oscar-instrument-catalogue/
 template: instrument-catalogue-template.xml
 
 # header information
-individualName: Jörg Klausen
+individualName: Sarina Danioth
 organisationName: MeteoSwiss
-electronicMailAddress: joerg.klausen@meteoswiss.ch
+electronicMailAddress: sarina.danioth@meteoswiss.ch
 
 # API endpoints
-upload: https://oscardevt.meteoswiss.ch/surface/rest/api/wmd/upload/
+upload: https://oscardepl.wmo.int/surface/rest/api/wmd/upload/
 #upload: https://oscar.wmo.int/surface/rest/api/wmd/upload/
 
 # proxies
@@ -26,6 +26,4 @@ proxies : {"http": "http://here-goes-the-proxy-address:port-number",
            "https": "https://here-goes-the-proxy-address:port-number"}
 
 # security token
-token: faa3c383-2d57-49aa-b60d-14590ff08fc6
-
-
+#token:
