@@ -1,0 +1,2 @@
+Name,WIGOSstationIdentifier,SupervisingOrganization,DateEstablished,Latitude,Longitude,Altitude,GeopositioningMethod,StationType,TerritoryDateFrom,Territory,WMOregion,ProgramAffiliation,Geometry,ObservedVariableAtmosphere
+Test Sarina 1,0-756-1-4802200,Federal Office of Meteorology and Climatology MeteoSwiss,2023-04-25,46.6000,8.5000,1002,GPS,landFixed,2023-04-27,CHE,europe,GTOS,point,224

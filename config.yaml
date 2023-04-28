@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 
 # logging
-logging: ~/Public/git/oscar-instrument-catalogue/logging/
+logging: ~/Public/git/oscar-facility-catalogue/logging/
 
 # source file
-source: ~/Public/git/oscar-instrument-catalogue/example-instrument-catalogue.csv
+source: ~/Public/git/oscar-facility-catalogue/example-facility-catalogue.csv
 
 # target file
-target: ~/Public/git/oscar-instrument-catalogue/
+target: ~/Public/git/oscar-facility-catalogue/
 
 # jinja2 template
-template: instrument-catalogue-template.xml
+template: facility-catalogue-template.xml
 
 # header information
 individualName: Sarina Danioth
@@ -26,4 +26,4 @@ proxies : {"http": "http://here-goes-the-proxy-address:port-number",
            "https": "https://here-goes-the-proxy-address:port-number"}
 
 # security token
-#token:
+token: none
