@@ -10,7 +10,7 @@ source: ~/Public/git/oscar-facility-catalogue/example-facility-catalogue.csv
 target: ~/Public/git/oscar-facility-catalogue/
 
 # jinja2 template
-template: facility-catalogue-template.xml
+template: facility-catalogue-template1.xml
 
 # header information
 individualName: Sarina Danioth
