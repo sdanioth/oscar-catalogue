@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
 # logging
-logging: ~/Public/git/oscar-facility-catalogue/logging/
+logging: /home/sdanioth/Documents/git/oscar-facility-catalogue/logging/
 
 # source file
-source: ~/Public/git/oscar-facility-catalogue/example-facility-catalogue.csv
+source: /home/sdanioth/Documents/git/oscar-facility-catalogue/example-facility-catalogue.csv
 
 # target file
-target: ~/Public/git/oscar-facility-catalogue/
+target: /home/sdanioth/Documents/git/oscar-facility-catalogue/
 
 # jinja2 template
 template: facility-catalogue-template1.xml
