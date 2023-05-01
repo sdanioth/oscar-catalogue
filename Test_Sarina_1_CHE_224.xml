@@ -3,7 +3,7 @@
     <gml:boundedBy xsi:nil="true"/>
     <wmdr:headerInformation>
         <wmdr:Header>
-            <wmdr:fileDateTime>2023-05-01T10:15:20</wmdr:fileDateTime>
+            <wmdr:fileDateTime>2023-05-01T11:12:18</wmdr:fileDateTime>
             <wmdr:recordOwner>
                 <gmd:CI_ResponsibleParty id="wmo_meteoswiss">
                     <gmd:organisationName>
@@ -55,7 +55,7 @@
                          </gmd:CI_ResponsibleParty>
                     </wmdr:responsibleParty>
                     <wmdr:validPeriod xlink:type="simple">
-                        <gml:TimePeriod gml:id="uuid-90f4c45c-f53a-421b-a4fe-366938d5e407">
+                        <gml:TimePeriod gml:id="uuid-080cee11-26a8-440f-8187-c1f1a67e2c6d">
                             <gml:beginPosition>2023-04-25</gml:beginPosition>
                             <gml:endPosition/>
                         </gml:TimePeriod>
