@@ -144,3 +144,4 @@ if __name__ == '__main__':
         with open(xml_file) as r:
             xml = r.read()
             res = requests.post(url=config['upload'], data=xml, headers={'X-WMO-WMDR-Token': config['token']})
+            print(res)
