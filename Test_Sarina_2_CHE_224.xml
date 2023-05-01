@@ -3,7 +3,7 @@
     <gml:boundedBy xsi:nil="true"/>
     <wmdr:headerInformation>
         <wmdr:Header>
-            <wmdr:fileDateTime>2023-05-01T11:52:30</wmdr:fileDateTime>
+            <wmdr:fileDateTime>2023-05-01T14:58:04</wmdr:fileDateTime>
             <wmdr:recordOwner>
                 <gmd:CI_ResponsibleParty id="wmo_meteoswiss">
                     <gmd:organisationName>
@@ -39,8 +39,8 @@
     </wmdr:headerInformation>
     <wmdr:facility>
         <wmdr:ObservingFacility>
-            <gml:identifier codeSpace="0-756-1-4802200">0-756-1-4802200</gml:identifier>
-            <gml:name>Test Sarina 1</gml:name>
+            <gml:identifier codeSpace="0-756-1-4802500">0-756-1-4802500</gml:identifier>
+            <gml:name>Test Sarina 2</gml:name>
             <gml:boundedBy xsi:nil="true"/>
             <wmdr:responsibleParty>
                 <wmdr:ResponsibleParty>
@@ -55,7 +55,7 @@
                          </gmd:CI_ResponsibleParty>
                     </wmdr:responsibleParty>
                     <wmdr:validPeriod xlink:type="simple">
-                        <gml:TimePeriod gml:id="uuid-b6e041da-6ce7-41b3-b9e6-2e2d1176255b-1">
+                        <gml:TimePeriod gml:id="uuid-7a55646a-14c7-413a-8810-d390e25f9ddb-1">
                             <gml:beginPosition>2023-04-25</gml:beginPosition>
                             <gml:endPosition/>
                         </gml:TimePeriod>
@@ -66,12 +66,12 @@
                 <wmdr:GeospatialLocation>
                     <wmdr:geoLocation xlink:type="simple">
                         <gml:Point>
-                            <gml:pos>46.6000 8.5000 1002</gml:pos>
+                            <gml:pos>46.700 8.3000 800</gml:pos>
                         </gml:Point>
                     </wmdr:geoLocation>
                     <wmdr:geopositioningMethod xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/GeopositioningMethod/GPS"/>
                     <wmdr:validPeriod xlink:type="simple">
-                        <gml:TimePeriod gml:id="uuid-b6e041da-6ce7-41b3-b9e6-2e2d1176255b-2">
+                        <gml:TimePeriod gml:id="uuid-7a55646a-14c7-413a-8810-d390e25f9ddb-2">
                             <gml:beginPosition>2023-04-25</gml:beginPosition>
                             <gml:endPosition/>
                         </gml:TimePeriod>
@@ -85,8 +85,8 @@
                 <wmdr:Territory>
                     <wmdr:territoryName xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/TerritoryName/CHE"/>
                     <wmdr:validPeriod xlink:type="simple">
-                        <gml:TimePeriod gml:id="uuid-b6e041da-6ce7-41b3-b9e6-2e2d1176255b-3">
-                            <gml:beginPosition>2023-04-27</gml:beginPosition>
+                        <gml:TimePeriod gml:id="uuid-7a55646a-14c7-413a-8810-d390e25f9ddb-3">
+                            <gml:beginPosition>2022-04-27</gml:beginPosition>
                             <gml:endPosition/>
                         </gml:TimePeriod>
                     </wmdr:validPeriod>

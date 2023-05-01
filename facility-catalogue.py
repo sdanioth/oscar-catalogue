@@ -13,6 +13,8 @@ from requests.adapters import HTTPAdapter
 from urllib3.util import Retry
 import uuid
 import yaml
+import io
+
 
 
 class FacilityCatalogue:
@@ -68,6 +70,9 @@ class FacilityCatalogue:
             self.upload = config['upload']
             self.proxies = config['proxies']
             self.token = config['token']
+            url = self.upload
+            token = self.token
+
 
         except Exception as err:
             self.logger.error('Error setting up FacilityCatalogue', err)
@@ -131,4 +136,11 @@ class FacilityCatalogue:
 if __name__ == '__main__':
     config = os.path.join(os.getcwd(), 'config.yaml')
     facility_catalogue = FacilityCatalogue(config)
-    facility_catalogue.csv2wmdr()
+    xml_files = facility_catalogue.csv2wmdr()
+    with open(os.path.abspath(config), "r") as f:
+        config = yaml.safe_load(f)
+        f.close()
+    for xml_file in xml_files:
+        with open(xml_file) as r:
+            xml = r.read()
+            res = requests.post(url=config['upload'], data=xml, headers={'X-WMO-WMDR-Token': config['token']})

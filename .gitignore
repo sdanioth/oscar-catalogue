@@ -7,10 +7,18 @@ __pycache__*
 *.sqlite3
 
 # yaml config file
-# *config*.yaml
+*config.yaml
 
 # anything to to with Spyder
 *.spy*
 
 # log files
 *.log
+
+# jupyter test file
+*.ipynb
+.ipynb_checkpoints
+
+# vscode stuff
+*.json
+*.vscode

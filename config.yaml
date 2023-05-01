@@ -10,7 +10,7 @@ source: /home/sdanioth/Documents/git/oscar-facility-catalogue/example-facility-c
 target: /home/sdanioth/Documents/git/oscar-facility-catalogue/
 
 # jinja2 template
-template: facility-catalogue-template1.xml
+template: facility-catalogue-template.xml
 
 # header information
 individualName: Sarina Danioth
@@ -26,4 +26,4 @@ proxies : {"http": "http://here-goes-the-proxy-address:port-number",
            "https": "https://here-goes-the-proxy-address:port-number"}
 
 # security token
-token: none
+token: 49c928de-acdb-48bc-ad32-9e057b53ed4a

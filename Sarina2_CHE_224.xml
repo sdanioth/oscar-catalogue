@@ -3,7 +3,7 @@
     <gml:boundedBy xsi:nil="true"/>
     <wmdr:headerInformation>
         <wmdr:Header>
-            <wmdr:fileDateTime>2023-05-01T11:52:30</wmdr:fileDateTime>
+            <wmdr:fileDateTime>2023-05-01T15:09:36</wmdr:fileDateTime>
             <wmdr:recordOwner>
                 <gmd:CI_ResponsibleParty id="wmo_meteoswiss">
                     <gmd:organisationName>
@@ -39,8 +39,8 @@
     </wmdr:headerInformation>
     <wmdr:facility>
         <wmdr:ObservingFacility>
-            <gml:identifier codeSpace="0-756-1-4802200">0-756-1-4802200</gml:identifier>
-            <gml:name>Test Sarina 1</gml:name>
+            <gml:identifier codeSpace="0-756-1-4802340">0-756-1-4802340</gml:identifier>
+            <gml:name>Sarina2</gml:name>
             <gml:boundedBy xsi:nil="true"/>
             <wmdr:responsibleParty>
                 <wmdr:ResponsibleParty>
@@ -55,8 +55,8 @@
                          </gmd:CI_ResponsibleParty>
                     </wmdr:responsibleParty>
                     <wmdr:validPeriod xlink:type="simple">
-                        <gml:TimePeriod gml:id="uuid-b6e041da-6ce7-41b3-b9e6-2e2d1176255b-1">
-                            <gml:beginPosition>2023-04-25</gml:beginPosition>
+                        <gml:TimePeriod gml:id="uuid-b93b6340-fc76-40a8-894b-c57eb38c3106-1">
+                            <gml:beginPosition>3/25/2023</gml:beginPosition>
                             <gml:endPosition/>
                         </gml:TimePeriod>
                     </wmdr:validPeriod>
@@ -66,27 +66,27 @@
                 <wmdr:GeospatialLocation>
                     <wmdr:geoLocation xlink:type="simple">
                         <gml:Point>
-                            <gml:pos>46.6000 8.5000 1002</gml:pos>
+                            <gml:pos>47 8.2 444</gml:pos>
                         </gml:Point>
                     </wmdr:geoLocation>
                     <wmdr:geopositioningMethod xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/GeopositioningMethod/GPS"/>
                     <wmdr:validPeriod xlink:type="simple">
-                        <gml:TimePeriod gml:id="uuid-b6e041da-6ce7-41b3-b9e6-2e2d1176255b-2">
-                            <gml:beginPosition>2023-04-25</gml:beginPosition>
+                        <gml:TimePeriod gml:id="uuid-b93b6340-fc76-40a8-894b-c57eb38c3106-2">
+                            <gml:beginPosition>3/25/2023</gml:beginPosition>
                             <gml:endPosition/>
                         </gml:TimePeriod>
                     </wmdr:validPeriod>
                 </wmdr:GeospatialLocation>
             </wmdr:geospatialLocation>
             <wmdr:facilityType xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/FacilityType/landFixed"/>
-            <wmdr:dateEstablished>2023-04-25</wmdr:dateEstablished>
+            <wmdr:dateEstablished>3/25/2023</wmdr:dateEstablished>
             <wmdr:wmoRegion xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/WMORegion/europe"/>
             <wmdr:territory>
                 <wmdr:Territory>
                     <wmdr:territoryName xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/TerritoryName/CHE"/>
                     <wmdr:validPeriod xlink:type="simple">
-                        <gml:TimePeriod gml:id="uuid-b6e041da-6ce7-41b3-b9e6-2e2d1176255b-3">
-                            <gml:beginPosition>2023-04-27</gml:beginPosition>
+                        <gml:TimePeriod gml:id="uuid-b93b6340-fc76-40a8-894b-c57eb38c3106-3">
+                            <gml:beginPosition>2/27/2022</gml:beginPosition>
                             <gml:endPosition/>
                         </gml:TimePeriod>
                     </wmdr:validPeriod>
