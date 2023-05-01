@@ -1,5 +1,5 @@
 # oscar-facility-catalogue
-Create XML file to expand or update the OSCAR/Surface Instrument Catalogue
+Create .xml file based on .csv file to catalogue new facility in OSCAR/Surface
 
 **based on https://github.com/joergklausen/oscar-instrument-catalogue**
 
