@@ -1,7 +1,7 @@
 # oscar-facility-catalogue
 Create XML file to expand or update the OSCAR/Surface Instrument Catalogue
 
-** based on https://github.com/joergklausen/oscar-instrument-catalogue **
+**based on https://github.com/joergklausen/oscar-instrument-catalogue**
 
 HOW-TO
 1) Clone this github repository and set up a Python environment if you don't have one.
