@@ -1,2 +1,2 @@
 Name,WIGOSstationIdentifier,SupervisingOrganization,DateEstablished,Latitude,Longitude,Altitude,GeopositioningMethod,StationType,TerritoryDateFrom,Territory,WMOregion,ProgramAffiliation,Geometry,ObservedVariableAtmosphere
-Sarina2,0-756-1-4802340,Federal Office of Meteorology and Climatology MeteoSwiss,3/25/2023,47,8.2,444,GPS,landFixed,2/27/2022,CHE,europe,GTOS,point,224
+Sarina2,0-756-1-4802340,Federal Office of Meteorology and Climatology MeteoSwiss,2023-02-02,47.0001,8.2001,444,GPS,landFixed,2022-01-05,CHE,europe,GTOS,point,224

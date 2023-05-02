@@ -26,4 +26,4 @@ proxies : {"http": "http://here-goes-the-proxy-address:port-number",
            "https": "https://here-goes-the-proxy-address:port-number"}
 
 # security token
-token: 49c928de-acdb-48bc-ad32-9e057b53ed4a
+token: 424bdd5a-df56-430b-937a-9e48957cea99
