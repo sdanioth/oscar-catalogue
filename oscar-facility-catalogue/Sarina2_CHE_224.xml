@@ -3,7 +3,7 @@
     <gml:boundedBy xsi:nil="true"/>
     <wmdr:headerInformation>
         <wmdr:Header>
-            <wmdr:fileDateTime>2023-05-02T13:48:54</wmdr:fileDateTime>
+            <wmdr:fileDateTime>2023-05-03T10:42:44</wmdr:fileDateTime>
             <wmdr:recordOwner>
                 <gmd:CI_ResponsibleParty id="wmo_meteoswiss">
                     <gmd:organisationName>
@@ -55,7 +55,7 @@
                          </gmd:CI_ResponsibleParty>
                     </wmdr:responsibleParty>
                     <wmdr:validPeriod xlink:type="simple">
-                        <gml:TimePeriod gml:id="uuid-c80c3336-f1e9-4272-844f-0cce8426b788-1">
+                        <gml:TimePeriod gml:id="uuid-7e345766-e3a7-44a7-a046-b47c9d7d789b-1">
                             <gml:beginPosition>2023-02-02</gml:beginPosition>
                             <gml:endPosition/>
                         </gml:TimePeriod>
@@ -71,7 +71,7 @@
                     </wmdr:geoLocation>
                     <wmdr:geopositioningMethod xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/GeopositioningMethod/GPS"/>
                     <wmdr:validPeriod xlink:type="simple">
-                        <gml:TimePeriod gml:id="uuid-c80c3336-f1e9-4272-844f-0cce8426b788-2">
+                        <gml:TimePeriod gml:id="uuid-7e345766-e3a7-44a7-a046-b47c9d7d789b-2">
                             <gml:beginPosition>2023-02-02</gml:beginPosition>
                             <gml:endPosition/>
                         </gml:TimePeriod>
@@ -85,7 +85,7 @@
                 <wmdr:Territory>
                     <wmdr:territoryName xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/TerritoryName/CHE"/>
                     <wmdr:validPeriod xlink:type="simple">
-                        <gml:TimePeriod gml:id="uuid-c80c3336-f1e9-4272-844f-0cce8426b788-3">
+                        <gml:TimePeriod gml:id="uuid-7e345766-e3a7-44a7-a046-b47c9d7d789b-3">
                             <gml:beginPosition>2022-01-05</gml:beginPosition>
                             <gml:endPosition/>
                         </gml:TimePeriod>

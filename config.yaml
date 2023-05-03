@@ -4,13 +4,16 @@
 logging: /home/sdanioth/Documents/git/oscar-facility-catalogue/logging/
 
 # source file
-source: /home/sdanioth/Documents/git/oscar-facility-catalogue/example-facility-catalogue.csv
+FacilitySource: /home/sdanioth/Documents/git/oscar-catalogue/example-facility-catalogue.csv
+ObservationSource: /home/sdanioth/Documents/git/oscar-catalogue/example-observation-catalogue.csv
 
 # target file
-target: /home/sdanioth/Documents/git/oscar-facility-catalogue/
+FacilityTarget: /home/sdanioth/Documents/git/oscar-catalogue/oscar-facility-catalogue/
+ObervatonTarget: /home/sdanioth/Documents/git/oscar-catalogue/oscar-observation-catalogue/
 
 # jinja2 template
-template: facility-catalogue-template.xml
+FacilityTemplate: facility-catalogue-template_base.xml
+ObservationTemplate: observation-catalogue-template.xml
 
 # header information
 individualName: Sarina Danioth

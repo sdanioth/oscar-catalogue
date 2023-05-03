@@ -17,7 +17,7 @@ import io
 
 
 
-class FacilityCatalogue:
+class ObservationCatalogue:
     """
     Read flat file, convert to WMDR XML file, upload to OSCAR/Surface.
 
@@ -59,9 +59,9 @@ class FacilityCatalogue:
                                 filename=str(self.logfile),
                                 filemode='a')
 
-            self.source = os.path.expanduser(config['FacilitySource'])
-            self.target = os.path.expanduser(config['FacilityTarget'])
-            self.template = config['FacilityTemplate']
+            self.source = os.path.expanduser(config['ObservationSource'])
+            self.target = os.path.expanduser(config['ObervatonTarget'])
+            self.template = config['ObservationTemplate']
             self.header = { 'dtm': time.strftime("%Y-%m-%dT%H:%M:%S"),
                     'individualName': config['individualName'],
                             'organisationName': config['organisationName'],
@@ -111,12 +111,12 @@ class FacilityCatalogue:
                     var = 'ObservedVariableAtmosphere'
                     d1 = { key: sanitize(row[key]) for key in row.keys() if key != var }
                     for ele in row[var].split(','):
-                        facility = {var: ele.strip(), 'uuid': uuid.uuid4()}
-                        facility.update(d1)
+                        observation = {var: ele.strip(), 'uuid': uuid.uuid4()}
+                        observation.update(d1)
 
                         # generate XML file
-                        xml = template.render(header=self.header, facility=facility)
-                        file = os.path.join(self.target, "%s %s %s.xml" % (facility['Name'], facility['Territory'], facility['ObservedVariableAtmosphere']))
+                        xml = template.render(header=self.header, observation=observation)
+                        file = os.path.join(self.target, "%s %s .xml" % (observation['WIGOSstationIdentifier'], observation['ObservedVariableAtmosphere']))
                         file = file.replace(" ", "_")
                         files.append(file)
                         with open(file, 'w') as f:
@@ -135,8 +135,8 @@ class FacilityCatalogue:
 
 if __name__ == '__main__':
     config = os.path.join(os.getcwd(), 'config.yaml')
-    facility_catalogue = FacilityCatalogue(config)
-    xml_files = facility_catalogue.csv2wmdr()
+    observation_catalogue = ObservationCatalogue(config)
+    xml_files = observation_catalogue.csv2wmdr()
     with open(os.path.abspath(config), "r") as f:
         config = yaml.safe_load(f)
         f.close()
