@@ -1,4 +1,4 @@
-# oscar-facility-catalogue
+# oscar-catalogue
 Create .xml file based on .csv file to catalogue new facility and / or observations in OSCAR/Surface
 
 **based on https://github.com/joergklausen/oscar-instrument-catalogue**
