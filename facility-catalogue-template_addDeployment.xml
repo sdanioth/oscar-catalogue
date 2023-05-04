@@ -72,7 +72,7 @@
                     <wmdr:geopositioningMethod xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/GeopositioningMethod/{{ facility['GeopositioningMethod'] }}"/>
                     <wmdr:validPeriod xlink:type="simple">
                         <gml:TimePeriod gml:id="uuid-{{ facility['uuid'] }}-2">
-                            <gml:beginPosition>{{ facility['DateEstablished'] }}</gml:beginPosition>
+                            <gml:beginPosition></gml:beginPosition>
                             <gml:endPosition/>
                         </gml:TimePeriod>
                     </wmdr:validPeriod>
@@ -86,7 +86,7 @@
                     <wmdr:territoryName xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/TerritoryName/{{ facility['Territory'] }}"/>
                     <wmdr:validPeriod xlink:type="simple">
                         <gml:TimePeriod gml:id="uuid-{{ facility['uuid'] }}-3">
-                            <gml:beginPosition>{{ facility['TerritoryDateFrom'] }}</gml:beginPosition>
+                            <gml:beginPosition></gml:beginPosition>
                             <gml:endPosition/>
                         </gml:TimePeriod>
                     </wmdr:validPeriod>

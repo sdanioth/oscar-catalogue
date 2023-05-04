@@ -1,0 +1,2 @@
+WIGOSstationIdentifier,Name,SupervisingOrganization,DateEstablished,Latitude,Longitude,Altitude,GeopositioningMethod,StationType,WMORegion,Territory,ProgramAffiliation,Geometry,ObservedVariableAtmosphere
+0-756-44444-baseTest,Sarina Base template test,MeteoSwiss,2021-04-05,8.6,8.4,204,GPS,landFixed,europe,CHE,GTOS,point,327

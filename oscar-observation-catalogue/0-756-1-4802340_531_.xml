@@ -3,7 +3,7 @@
     <gml:boundedBy xsi:nil="true"/>
     <wmdr:headerInformation>
         <wmdr:Header>
-            <wmdr:fileDateTime>2023-05-03T11:45:29</wmdr:fileDateTime>
+            <wmdr:fileDateTime>2023-05-03T16:44:38</wmdr:fileDateTime>
             <wmdr:recordOwner>
                 <gmd:CI_ResponsibleParty id="wmo_meteoswiss">
                     <gmd:organisationName>
@@ -65,7 +65,7 @@
                         <wmdr:Process>
                         <gml:boundedBy xsi:nil="true"/>
                         <wmdr:deployment xlink:type="simple">
-                            <wmdr:Deployment gml:id="uuid-8ccc164f-f53b-42f9-bc00-69a65543f585-1">
+                            <wmdr:Deployment gml:id="uuid-ed5c17f3-a33a-4fa7-a715-3da321bf446f-1">
                             <gml:boundedBy xsi:nil="true"/>
                             <wmdr:deployedEquipment xlink:type="simple">
                                 <wmdr:Equipment>
@@ -88,17 +88,17 @@
                                         </gml:Point>
                                     </wmdr:geoLocation>
                                     <wmdr:validPeriod xlink:type="simple">
-                                        <gml:TimePeriod gml:id="uuid-8ccc164f-f53b-42f9-bc00-69a65543f585-2">
+                                        <gml:TimePeriod gml:id="uuid-ed5c17f3-a33a-4fa7-a715-3da321bf446f-2">
                                         <gml:beginPosition>2017-01-01</gml:beginPosition>
                                         <gml:endPosition/>
                                         </gml:TimePeriod>
                                     </wmdr:validPeriod>
                                     </wmdr:GeospatialLocation>
                                 </wmdr:geospatialLocation>
-                                <wmdr:manufacturer>Vaisala</wmdr:manufacturer>
-                                <wmdr:model>CL31</wmdr:model>
+                                <wmdr:manufacturer>unknown</wmdr:manufacturer>
+                                <wmdr:model>unknown</wmdr:model>
                                 <wmdr:observingMethod xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/ObservingMethodAtmosphere/245"/>
-                                <wmdr:observingMethodDetails>E-PROFILE instrument id: B</wmdr:observingMethodDetails>
+                                <wmdr:observingMethodDetails>unknown</wmdr:observingMethodDetails>
                                 <wmdr:equipmentLog xlink:type="simple">
                                     <wmdr:EquipmentLog>
                                     <gml:boundedBy xsi:nil="true"/>
@@ -108,7 +108,7 @@
                                 </wmdr:Equipment>
                             </wmdr:deployedEquipment>
                             <wmdr:dataGeneration xlink:type="simple">
-                                <wmdr:DataGeneration gml:id="uuid-8ccc164f-f53b-42f9-bc00-69a65543f585-3">
+                                <wmdr:DataGeneration gml:id="uuid-ed5c17f3-a33a-4fa7-a715-3da321bf446f-3">
                                 <gml:boundedBy xsi:nil="true"/>
                                 <wmdr:validPeriod xlink:type="simple">
                                     <gml:TimePeriod>
