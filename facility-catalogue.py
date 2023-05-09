@@ -14,6 +14,7 @@ from urllib3.util import Retry
 import uuid
 import yaml
 import io
+from pyoscar import OSCARClient
 
 
 
@@ -137,11 +138,13 @@ if __name__ == '__main__':
     config = os.path.join(os.getcwd(), 'config.yaml')
     facility_catalogue = FacilityCatalogue(config)
     xml_files = facility_catalogue.csv2wmdr()
+
     with open(os.path.abspath(config), "r") as f:
         config = yaml.safe_load(f)
         f.close()
     for xml_file in xml_files:
         with open(xml_file) as r:
+            client = OSCARClient(api_token=config['token'])
             xml = r.read()
-            res = requests.post(url=config['upload'], data=xml, headers={'X-WMO-WMDR-Token': config['token']})
-            print(res)
+            response = client.upload(xml)
+            print(response)

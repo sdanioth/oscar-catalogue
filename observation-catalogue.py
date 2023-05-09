@@ -14,6 +14,7 @@ from urllib3.util import Retry
 import uuid
 import yaml
 import io
+from pyoscar import OSCARClient
 
 
 
@@ -142,6 +143,7 @@ if __name__ == '__main__':
         f.close()
     for xml_file in xml_files:
         with open(xml_file) as r:
+            client = OSCARClient(api_token=config['token'])
             xml = r.read()
-            res = requests.post(url=config['upload'], data=xml, headers={'X-WMO-WMDR-Token': config['token']})
-            print(res)
+            response = client.upload(xml)
+            print(response)

@@ -4,7 +4,8 @@
 logging: /home/sdanioth/Documents/git/oscar-facility-catalogue/logging/
 
 # source file
-FacilitySource: /home/sdanioth/Documents/git/oscar-catalogue/example-facility-catalogue_base.csv
+#FacilitySource: /home/sdanioth/Documents/git/oscar-catalogue/example-facility-catalogue_base.csv
+FacilitySource: /home/sdanioth/Documents/git/oscar-catalogue/KADI_TEST_SURVEY.csv
 ObservationSource: /home/sdanioth/Documents/git/oscar-catalogue/example-observation-catalogue.csv
 
 # target file
@@ -29,4 +30,4 @@ proxies : {"http": "http://here-goes-the-proxy-address:port-number",
            "https": "https://here-goes-the-proxy-address:port-number"}
 
 # security token
-token: 424bdd5a-df56-430b-937a-9e48957cea99
+token: 'bea1a424-eee9-4edc-8467-c5b9497d2a6c'
