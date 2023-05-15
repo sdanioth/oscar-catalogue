@@ -1,0 +1,680 @@
+label,notation
+Aerological soundings,37
+Atmospheric density,39
+Integrated air samples,44
+Special phenomena,56
+State of ground,57
+Cloud amount,179
+Cloud cover,180
+Cloud drop effective radius,181
+Cloud hydrometeor concentration,182
+Effective radius of cloud hydrometeors,183
+Melting layer depth in clouds,186
+PSC occurrence,188
+CH4 (methane),192
+"CH4 (methane, C-13)",193
+CO2 (carbon dioxide),194
+"CO2 (carbon dioxide, C-13)",195
+CO2 [O-18],196
+N2O (nitrous oxide),201
+SF6 (sulfur hexafluoride),203
+SO2F2 (sulfuryl fluoride),204
+H2 (hydrogen molecule),205
+H2O (as a chemical species),206
+HDO (as a chemical species),207
+Amount of precipitation,210
+Duration of precipitation,211
+Intensity of precipitation,212
+Occurrence of precipitation during last period (yes/no),213
+Rate of ice accretion,214
+Type of precipitation,215
+Atmospheric pressure,216
+Characteristic of pressure tendency,217
+Pressure tendency,218
+Beryllium [Be-7],219
+CO2 [C-14],220
+Krypton [Kr-85],221
+Lead [Pb-210],222
+Radon [Rn-222],223
+Air temperature (at specified distance from reference surface),224
+Dew-point temperature (at specified distance from reference surface),225
+"Extreme temperature (min, max) (at specified distance from reference surface)",226
+Temperature profile,227
+Runway visual range,229
+Visibility,230
+"Transport calculations (e.g., trajectories)",248
+Turbulence,249
+Turbulence type (low levels and wake vortex),250
+Humidity (at specified distance from reference surface),251
+Integrated water vapour,252
+Mass mixing ratio,253
+Object wetness duration,254
+Water vapour pressure,255
+Watervapor profile,256
+Lightning discharge energy,257
+Lightning discharge polarity,258
+Lightning discharge rates,259
+"Lightning discharge type (cloud to cloud, cloud to surface)",260
+Surface ozone,262
+Total column ozone,263
+Vertical ozone profile,264
+Past weather,265
+Present weather,266
+Background luminance,267
+Sunshine duration,270
+Surface albedo,271
+UV-B radiation,273
+BrO (bromine monoxide),274
+C2Cl4 (tetrachloroethene),275
+C2HCl3 (trichloroethene),276
+CH2Br2 (dibromomethane),277
+CH2Cl2 (dichloromethane),278
+CH3Br (bromomethane),279
+CH3Cl (chloromethane),280
+CH3I (iodomethane),281
+CHBr3 (bromoform),282
+"CHCl3 (trichloromethane, chloroform)",283
+CO,284
+"COF2 (difluoromethanal, carbonyl fluoride)",285
+ClO (chlorine monoxide),286
+H2O2 (hydrogen peroxide),287
+HCl (hydrochloric acid),288
+HF (hydrofluoric acid),289
+ROOH,291
+Acidity-Alkalinity,294
+Electric conductivity,295
+Hydrogen ion (H+) or pH,296
+S (sulfur),302
+Direction of cloud movement,304
+Gust Speed,305
+"Wind (Z component, vertical)",307
+"Wind (surface wind direction and speed, horizontal) - deprecated",309
+"Upper wind (X, Y components, horizontal)",310
+Aerosol Absorption Optical Depth,314
+Aerosol Extinction Coefficient,315
+"Particle light absorption coefficient, PM1",316
+"Particle light absorption coefficient, PM10",317
+"Particle light absorption coefficient, TSP",318
+"Light backscattering coefficient, PM1",319
+"Light backscattering coefficient, PM10",320
+"Light backscattering coefficient, total aerosol",321
+"Particle light scattering coefficient, PM1",322
+"Particle light scattering coefficient, PM10",323
+"Particle light scattering coefficient, TSP",324
+"Aerosol optical depth, TSP",325
+Vertical distribution of properties,326
+Cloud ice,327
+Cloud ice (total column),328
+Cloud ice effective radius,329
+Freezing level height in clouds,330
+Icing potential,331
+CBrClF2 (Halon 1211),332
+"CBrF3 (bromotrifluoromethane, Halon 1301)",333
+"C13H10 (9H-fluorene, fluorene), in air",334
+"C14H10 (anthracene), PM10",335
+"C14H10 (anthracene), in aerosol",336
+"C14H10 (anthracene), in air and aerosol",337
+"C14H10 (anthracene), in air",338
+"C14H10 (phenanthrene), PM10",339
+"C14H10 (phenanthrene), in aerosol",340
+"C14H10 (phenanthrene), in air",341
+"C14H10 (phenanthrene), in air and aerosol",342
+"C14H10 (phenanthrene), in wet deposition",343
+"C14H10 (phenanthrene), in total precipitation",344
+"C16H10 (pyrene), in air and aerosol",345
+"C18H12 (Benz(a)anthracene), PM10",346
+"C18H12 (Benz(a)anthracene), in aerosol",347
+"C18H12 (Benz(a)anthracene), in air",348
+"C18H12 (Benz(a)anthracene), in air and aerosol",349
+"C18H12 (Benz(a)anthracene), in precipitation",350
+"C18H12 (Benz(a)anthracene), in total precipitation",351
+UV Broadband,356
+UV Erythemally weighted,357
+UV Multiband,358
+UV Spectral,359
+Aerosol column burden (mass density),361
+Particle effective radius,362
+"Particle mass concentration, PM10",364
+"Particle mass concentration, PM1",365
+"Particle mass concentration, PM2.5",366
+Particle mass concentration (size fractionated),367
+"Particle mass concentration, TSP",368
+Particle number concentration,369
+"Particle number size distribution, PM10",370
+"Particle number size distribution, TSP",371
+Cloud liquid water (CLW),373
+"Cloud liquid water (CLW, total column)",374
+"C12H8Cl6 (aldrin), in aerosol",375
+"C12H8Cl6 (aldrin), in air",376
+"C12H8Cl6 (aldrin), in air and aerosol",377
+"C12H8Cl6 (aldrin), in total precipitation",378
+"C12H8Cl6 (aldrin), in wet precipitation",379
+"C6Cl6 (hexachlorobenzene, HCB), in air",380
+"C6H6Cl6 (1,2,3,4,5,6-hexachlorocyclohexane, alpha-lindane, alpha-HCH), in aerosol",381
+"C6H6Cl6 (1,2,3,4,5,6-hexachlorocyclohexane, alpha-lindane, alpha-HCH), in air",382
+"C6H6Cl6 (1,2,3,4,5,6-hexachlorocyclohexane, alpha-lindane, alpha-HCH), in wet precipitation",383
+"C6H6Cl6 (1,2,3,4,5,6-hexachlorocyclohexane, gamma-lindane, gamma-HCH), in air",384
+"C6H6Cl6 (1,2,3,4,5,6-hexachlorocyclohexane, gamma-lindane, gamma-HCH), in wet precipitation",385
+NH3 (Ammonia),390
+"C2H3O5N (peroxyacetylnitrate, PAN)",391
+ClONO2 (chlorine nitrate),392
+"HCN (formonitrile, hydrogen cyanide)",393
+HNO3 (nitric acid),394
+NO (nitrogen monoxide),395
+NO2 (nitrogen dioxide),396
+NOx,397
+NOy,398
+CCN concentration at single supersaturation,411
+CCN concentration spectra,412
+"Hygroscopic growth factor, 110 μm equivalent",413
+"Hygroscopic growth factor, 165 μm equivalent",414
+"Hygroscopic growth factor, 35 μm equivalent",415
+"Hygroscopic growth factor, 50 μm equivalent",416
+"Hygroscopic growth factor, 75 μm equivalent",417
+"Hygroscopic growth factor, total aerosol",418
+"C2F6 (hexafluoroethane, PFC-116)",419
+"C3F8 (octafluoropropane, PFC-218)",420
+"CF4 (tetrafluoromethane, carbon tetrafluoride, perfluoromethane, PFC-14)",421
+"COS (OCS, carbon oxide sulfide, carbonyl sulfide)",428
+CS2 (Carbon disulfide),429
+SO2,430
+Lightning detection (time and location),431
+Lightning direction from station,432
+Lightning distance from station,433
+"C2H2 (ethyne, acetylene)",434
+"C2H2O2 (oxaldehyde, ethanedial)",435
+C2H4 (ethene),436
+C2H6 (ethane),437
+"C2H6S (dimethylsulfide, DMS)",438
+C3H4 (propyne),439
+"C3H4O (prop-2-enal, acrolein)",440
+"C3H4O2 (2-oxopropanal, methylglyoxal)",441
+C3H6 (propene),442
+"C3H6O (acetone, propanone)",443
+C3H6O (propanal),444
+C3H8 (propane),445
+"C4H6 (1,3-butadiene, butadiene)",446
+"C4H6O (2-methylprop-2-enal, methacrolein)",447
+"C4H6O (but-3-en-2-one, methylvinylketone)",448
+C4H8 (1-butene),449
+C4H8 (sum of butenes),450
+"C4H8O (butan-2-one, methylethylketone)",451
+C4H8O (butanal isomers),452
+C5H10 (1-pentene),453
+C5H10 (2-methyl-1-butene),454
+C5H10 (2-methyl-2-butene),455
+C5H10 (3-methyl-1-butene),456
+C5H10 (cyclopentane),457
+C5H10 (sum of 1-pentene and 2-methyl-2-butene),458
+C5H10 (sum of pentenes),459
+"C5H10O (pentanal, valeraldehyde)",460
+"C5H12 & C4H8 (sum of 2,2-dimethylpropane & c-2-butene)",461
+"C5H12 (2,2-dimethylpropane)",462
+"C5H14 (2,3-dimethylbutane)",463
+"C5H8 (2-methyl-1,3-butadiene, isoprene)",464
+C5H8 (cyclopentene),465
+"C5Hn, n=10 (sum of 3-methyl-1-butene and cyclopentene)",466
+"C5Hn, n={12, 10} (sum of n-pentane and cyclopentane)",467
+C6H12 (cyclohexane),468
+C6H12 (methylcyclopentane),469
+C6H12O (hexanal isomers),470
+"C6H14 (2,2-dimethylbutane)",471
+C6H14 (2-methylpentane),472
+C6H14 (3-methylpentane),473
+C6H14 (n-hexane),474
+C6H14 (sum of methylpentanes),475
+C6H6 (benzene),476
+"C6Hn, n={14, 12} (sum of 3-methylpentane and cyclohexane)",477
+"C6Hn, n={14, 12} (sum of 2,2-dimethylbutane and methylcyclopentane)",478
+"C6Hn, n={14, 12} (sum of 2,3-dimethylbutane and methylcyclopentane)",479
+C7H16 (sum of methylhexanes),480
+C7H6O (benzene carbaldehyde),481
+C7H8 (toluene),482
+C8H10 (ethylbenzene),483
+C8H10 (m-xylene),484
+C8H10 (o-xylene),485
+"C8H10 (Sum of p-xylene and m-xylene, 1,3- and 1,4-dimethylbenzene)",486
+"C9H12 (1,2,4-trimethylbenzene)",487
+"C9H12 (1,3,5-trimethylbenzene)",488
+"CH2O (methanal, formaldehyde)",489
+CH3CH2OH (ethanol),490
+"CH3CHO (acetaldehyde, ethanal)",491
+CH3CN (acetonitrile),492
+CH3OH (methanol),493
+NMHC,494
+c-C4H8 (cis-2-butene),495
+c-C5H10 (cis-2-pentene),496
+"i-C4H10 (2-methylpropane, iso-butane)",497
+"i-C4H8 (2-methylpropene, iso-butene)",498
+"i-C5H12 (2-methylbutane, iso-pentane)",499
+"i-C7H16 (2-methylhexane, isoheptane)",500
+n-C4H10 (n-butane),501
+n-C5H12 (n-pentane),502
+n-C7H16 (n-heptane),503
+t-C4H8 (trans-2-butene),504
+t-C5H10 (trans-2-pentene),505
+Cloud optical depth,506
+Optical depth of fog,507
+Optical depth within each cloud layer,508
+Short-wave cloud reflectance,509
+Extinction coefficient,521
+Hydrometeor radius,522
+Hydrometeor type,523
+Lithometeor type,524
+Meteorological Optical Range,525
+Obscuration type,526
+Strong acids,529
+Cloud base height,531
+Cloud top height,532
+Height of inversion,533
+"C2H3Cl2F (1,1-dichloro-1-fluoroethane, HCFC-141b)",534
+"C2H3ClF2 (1-chloro-1,1-difluoroethane, HCFC-142b)",535
+"C2H3F3 (1,1,1-trifluoroethane, HFC-143a)",536
+"CHClF2 (chlorodifluoromethane, HCFC-22)",537
+Br- (bromide),538
+Cl- (chloride),539
+F- (fluoride),540
+I- (iodide),541
+PO4--- (phosphate),542
+"SO4= (sulfate), corrected",543
+SO4= (sulfate),544
+Ca++ (calcium),545
+Mg++ (magnesium),546
+K+ (potassium),547
+Na+ (sodium),548
+Type of cloud,550
+Type of high clouds,551
+Type of low clouds,552
+Type of middle clouds,553
+"C2H2F4 (1,1,1,2-tetrafluoroethane, HFC-134a)",554
+"C2H4F2 (1,1-difluoroethane, HFC-152a)",555
+"C2HF5 (pentafluoroethane, HFC-125)",556
+"C3H2F6 (1,1,1,2,3,3-hexafluoropropane, HFC-236ea)",557
+"C3H3F5 (1,1,1,3,3-Pentafluoropropane, HFC-245fa)",558
+"C3HF7 (1,1,1,2,3,3,3-Heptafluoropropane, HFC-227ea)",559
+"C4H5F5 (1,1,1,3,3-pentafluorobutane, HFC-365mfc)",560
+"CH2F2 (difluoromethane, HFC-32)",561
+"CHF3 (trifluoromethane, HFC-23)",562
+Long-wave radiation (direction unspecified),565
+Long-wave radiation (downwelling),566
+Long-wave radiation (upwelling),567
+NH4+ (ammonium),568
+NO3- (nitrate),569
+NO2- (nitrite),570
+Diffuse solar radiation,571
+Direct solar radiation,572
+Global solar radiation (downwelling),573
+Global solar radiation (upwelling),574
+CH3COO- (acetate),576
+HCOO- (formate),577
+C2H5COO- (propionate),578
+"Acidity-Alkalinity, TSP",579
+"C2Cl2F4 (1,2-dichlorotetrafluoroethane, CFC-114)",589
+"C2Cl3F3 (1,1,2-trichloro-1,2,2-trifluoroethane, CFC-113)",590
+"C2ClF5 (1-chloro-1,1,2,2,2-pentafluoroethane, CFC-115)",591
+"CCl2F2 (dichlorodifluoromethane, CFC-12)",592
+"CCl3F (trichlorofluoromethane, CFC-11)",593
+"CCl4 (tetrachloromethane, carbon tetrachloride)",594
+"CH3CCl3 (1,1,1-trichloroethane, methyl chloroform)",595
+Al (aluminium),597
+As (arsenic),598
+Cd (cadmium),599
+Cr (chromium),600
+Co (cobalt),601
+Cu (copper),602
+Fe (iron),603
+Pb (lead),604
+Mn (manganese),605
+Hg (mercury),606
+Ni (nickel),607
+V (vanadium),608
+Zn (zinc),609
+"Cl- (chloride), PM1",614
+"Cl- (chloride), PM10",615
+"Cl- (chloride), PM2.5",616
+"Cl- (chloride), TSP",617
+"F- (fluoride), TSP",618
+"SO4= (sulfate), corrected",619
+"SO4= (sulfate), TSP",620
+"SO4= (sulfate), PM10",621
+"SO4= (sulfate), PM2.5",622
+"Elemental carbon, PM10",623
+"Elemental carbon, PM1",624
+"Elemental carbon, PM2.5",625
+"Total carbon, PM10",626
+"Ca++ (calcium), PM10",632
+"Ca++ (calcium), PM2.5",633
+"Ca++ (calcium), TSP",634
+"Mg++ (magnesium), PM10",635
+"Mg++ (magnesium), PM2.5",636
+"Mg++ (magnesium), TSP",637
+"K+ (potassium), PM10",638
+"K+ (potassium), PM2.5",639
+"K+ (potassium), TSP",640
+"Na+ (sodium), PM10",641
+"Na+ (sodium), PM2.5",642
+"Na+ (sodium), TSP",643
+"NH3 (ammonia), PM2.5",644
+"NH4+ (ammonium), PM10",645
+"NH4+ (ammonia), PM2.5",646
+"NH4+ (ammonium), TSP",647
+"NH4NO4 (ammonium nitrate), TSP",648
+"NH4NO3 (ammonium nitrate), PM1",649
+"NO3- (nitrate), PM10",650
+"NO3- (nitrate), PM2.5",651
+"NO3- (nitrate), TSP",652
+"NO2- (nitrite), TSP",653
+Sum of NH3 (ammonia) and NH4+ (ammonium),654
+Sum of HNO3 (nitric acid) and NO3- (nitrate),655
+Major chemical components,656
+"Major inorganic components, TSP",657
+"Major inorganic components, coarse",658
+"Major inorganic components, fine",659
+"Other chemical components, coarse",660
+"Other chemical components, fine",661
+"C2H3O2- (CH3COO-, acetate), PM1",662
+"C2H3O2- (CH3COO-, acetate),",663
+"C2O4= (oxalate, ethanedioate), PM1",664
+"C2O4= (oxalate, ethanedioate), PM10",665
+"C2O4= (oxalate, ethanedioate), TSP",666
+"CH3O3S- (methanesulfonate), PM1",667
+"CH3O3S- (methanesulfonate), TSP",668
+"CHO2- (HCOO-, formate),",669
+"Carbonaceous-organic material, PM10",670
+"Carbonaceous-organic material, fine",671
+"Ti (Titanium), TSP",672
+"Al (Aluminium), PM2.5",673
+"Al (Aluminium), TSP",674
+"Sb (Antimony), PM2.5",675
+"Sb (Antimony), TSP",676
+"As (Arsenic), PM10",677
+"As (Arsenic), TSP",678
+"Ba (Barium), PM2.5",679
+"Ba (Barium), TSP",680
+"Bi (Bismuth), PM2.5",681
+"Bi (Bismuth), TSP",682
+"Cd (Cadmium), PM1",683
+"Cd (Cadmium), PM10",684
+"Cd (Cadmium), PM2.5",685
+"Cd (Cadmium), PM2.5 - PM10",686
+"Cd (Cadmium), TSP",687
+"Ce (Cerium), PM2.5",688
+"Ce (Cerium), TSP",689
+"Cr (Chromium), TSP",690
+"Co (Cobalt), TSP",691
+"Cu (Copper), PM10",692
+"Cu (Copper), TSP",693
+"Fe (Iron), TSP",694
+"La (Lanthanum), PM2.5",695
+"La (Lanthanum), TSP",696
+"Pb (Lead), PM10",697
+"Pb (Lead), TSP",698
+"Li (Lithium), PM2.5",699
+"Li (Lithium), TSP",700
+"Mn (Manganese), PM10",701
+"Mn (Manganese), TSP",702
+"Hg (Mercury), TSP",703
+"Ni (Nickel), PM10",704
+"Ni (Nickel), TSP",705
+"P (Phosphorous), PM2.5",706
+"P (Phosphorous), TSP",707
+"Rb (Rubidium), PM2.5",708
+"Rb (Rubidium), TSP",709
+"Se (Selenium), TSP",710
+"Sr (Strontium), PM2.5",711
+"Sr (Strontium), TSP",712
+"Tl (Thallium), PM2.5",713
+"Tl (Thallium), TSP",714
+"Th (Thorium), PM2.5",715
+"Th (Thorium), TSP",716
+"Sn (Tin), PM2.5",717
+"Sn (Tin), TSP",718
+"U (Uranium), PM2.5",719
+"U (Uranium), TSP",720
+"V (Vanadium), PM2.5",721
+"V (Vanadium), TSP",722
+"Zn (Zinc), PM2.5",723
+"Zn (Zinc), TSP",724
+Dust mass concentration,727
+Volcanic ash particle mass concentration,728
+Aerosol volcanic ash (Total column),729
+Atmospheric pressure profile,12000
+Total lightning density,12001
+Lightning density cloud-to-ground,12002
+Horizontal wind direction at specified distance from reference surface,12005
+Horizontal wind speed at specified distance from reference surface,12006
+"Cl3CCF3 (1,1,1-trichloro-2,2,2-trifluoroethane, CFC-113a)",12016
+"CBr2F2 (dibromodifluoromethane, Halon 1202)",12017
+"C2Br2F4 (1,2-dibromo-1,1,2,2-tetrafluoroethane, Halon 2402)",12018
+"C2H3Cl2F (1,1-dichloro-2-fluoroethane, HCFC-141a)",12019
+O2/N2 ratio,12021
+Total pollen,12022
+Total Pinaceae,12023
+Abies,12024
+Picea,12025
+Larix,12026
+Pinus,12027
+Total Cupressaceae,12028
+Total Arecaceae,12029
+Platanus,12030
+Parietaria,12031
+Urtica,12032
+Castanea,12033
+Fagus,12034
+Quercus,12035
+Total Betulaceae,12036
+Alnus,12037
+Betula,12038
+Carpinus,12039
+Corylus,12040
+Total Amaranthaceae,12041
+Chenopodium,12042
+Populus,12043
+Salix,12044
+Total Oleaceae,12045
+Olea,12046
+Fraxinus,12047
+Total Asteraceae,12048
+Ambrosia,12049
+Artemisia,12050
+Solidago,12051
+Total Poaceae,12052
+Secale,12053
+Zea mays,12054
+Juglans,12055
+Ulmus,12056
+Acer,12057
+Aesculus,12058
+Brassica,12059
+Plantago,12060
+Sambucus,12061
+Rumex,12062
+Tilia,12063
+Humulus,12064
+Taxus,12065
+Hippophae,12066
+Ilex,12067
+Ligustrum,12068
+Total Juncaceae,12069
+Total Cyperaceae,12070
+Total Ericaceae,12071
+Total Rosaceae,12072
+Silene,12073
+Total Ranunculaceae,12074
+Total Umbelliferae,12075
+Total Brassicaceae,12076
+Ostrya,12077
+Cedrus,12078
+Buxus,12079
+Ginkgo,12080
+Liquidambar,12081
+Mercurialis,12082
+Total Moraceae,12083
+Alternaria,12084
+Cladosporium,12085
+NF3 (nitrogen trifluoride),12086
+"CH3D (monodeuterated methane, methane-d1)",12087
+"CClF3 (chlorotrifluoromethane, CFC-13)",12088
+"C2HClF4 (1-chloro-1,2,2,2-tetrafluoroethane, HCFC-124)",12089
+"C5H2F10 (1,1,1,2,2,3,4,5,5,5-decafluoropentane, HFC-43-10-mee)",12090
+"C4F8 (octafluorocyclobutane, PFC-318)",12091
+C3H8O (1-propanol),12092
+C3H8O (2-propanol),12093
+C4H4O (furan),12094
+C5H6O (2-methylfuran),12095
+C5H6O (3-methylfuran),12096
+"C3H3N (2-propenenitrile, acrylonitrile)",12097
+C3H5N (propanenitrile),12098
+"C4H5N (2-methyl-2-propenenitrile, methylacrylonitrile)",12099
+CH3NO3 (methyl nitrate),12100
+C2H5NO3 (ethyl nitrate),12101
+C3H7NO3 (isopropyl nitrate),12102
+C4H9NO3 (n-butyl nitrate),12103
+C4H9NO3 (isobutyl nitrate),12104
+C4H9NO3 (t-butyl nitrate),12105
+"C4H9NO3 (2-butyl nitrate, sec-butyl nitrate)",12106
+C5H10O (2-methyl-3-buten-2-ol),12107
+C8H18 (n-octane),12108
+"C8H18 (2,2,4-trimethylpentane)",12109
+"C4H6O ((E)-crotonaldehyde, trans-2-butenal)",12110
+"C4H6O ((Z)-crotonaldehyde, cis-2-butenal)",12111
+"C4H6O (crotonaldehyde, 2-butenal)",12112
+"C2H2Cl2 (1,1-dichloroethene)",12113
+"C2H2Cl2 ((Z)-1,2-dichloroethene, cis-1,2-dichloroethene)",12114
+"C2H2Cl2 ((E)-1,2-dichloroethene, trans-1,2-dichloroethene)",12115
+"C2H2Cl2 (1,2-dichloroethene)",12116
+"C2H4Cl2 (1,1-dichloroethane)",12117
+"C2H4Cl2 (1,2-dichloroethane)",12118
+CHBr2Cl (dibromochloromethane),12119
+CHBrCl2 (bromodichloromethane),12120
+CH2ClI (chloroiodomethane),12121
+CH2I2 (diiodomethane),12122
+C5H4O2 (furfural),12123
+C5H4O2 (3-furaldehyde),12124
+C8H8 (styrene),12125
+C8H6 (ethynylbenzene),12126
+C6H5Cl (chlorobenzene),12127
+C10H16 (tricyclene),12128
+C10H16 (alpha-pinene),12129
+C10H16 (beta-pinene),12130
+C10H16 (myrcene),12131
+C10H16 (camphene),12132
+C10H16 (D-limonene),12133
+C10H16 (3-carene),12134
+C2H2O2 (glyoxal),12135
+C2H4O2 (methyl formate),12136
+C2H4O2 (glycolaldehyde),12137
+C3H6O2 (methyl acetate),12138
+C3H6O2 (ethyl formate),12139
+C3H6O2 (hydroxyacetone),12140
+"C3H6O2 (1,3-dioxolane)",12141
+C4H8O2 (ethyl acetate),12142
+C4H8O2 (methyl propionate),12143
+C8H10 (p-xylene),12144
+Particle light extinction coefficient,12145
+Particle single scattering albedo,12146
+Ångström exponent for particle light extinction,12147
+Ångström exponent for particle light scattering,12148
+Ångström exponent for particle light absorption,12149
+Ångström exponent for aerosol optical depth,12150
+Ångström exponent  for aerosol absorption optical depth,12151
+Particle surface area size distribution,12152
+Particle volume size distribution,12153
+Particle mass size distribution,12154
+Hygroscopic particle size growth factor,12155
+Hygroscopic particle light scattering growth factor,12156
+Hygroscopic particle light extinction growth factor,12157
+Particle light hemispheric backscatter coefficient,12158
+Particle light backscatter coefficient,12159
+Particle light hemispheric forward scattering coefficient,12160
+Particle effective diameter,12161
+Aerosol layer height,12162
+Mixed layer height,12163
+O3 (ozone),12164
+Water vapour,12165
+Temperature,12166
+Cloud phase,12167
+Height of the top of the PBL,12168
+Aerosol type,12169
+Tritium [H-3],12170
+Carbon [C-14],12171
+Sodium [Na-22],12172
+Sodium [Na-24],12173
+Chlorine [Cl-38],12174
+Potassium [K-40],12175
+Potassium [K-42],12176
+Scandium [Sc-46],12177
+Chromium [Cr-51],12178
+Manganese [Mn-53],12179
+Manganese [Mn-56],12180
+Iron [Fe-59],12181
+Cobalt [Co-56],12182
+Cobalt [Co-57],12183
+Cobalt [Co-58],12184
+Cobalt [Co-60],12185
+Zinc [Zn-65],12186
+Gallium [Ga-67],12187
+Selenium [Se-75],12188
+Strontium [Sr-85],12189
+Strontium [Sr-89],12190
+Strontium [Sr-90],12191
+Strontium [Sr-91],12192
+Yttrium [Y-88],12193
+Yttrium [Y-90m],12194
+Zirconium [Zr-95],12195
+Niobium [Nb-95],12196
+Molybdenum [Mo-99],12197
+Technetium  [Tc-99m],12198
+Ruthenium [Ru-103],12199
+Ruthenium [Ru-106],12200
+Silver [Ag-108m],12201
+Silver [Ag-110m],12202
+Indium [In-111],12203
+Tin [Sn-113],12204
+Antimony [Sb-122],12205
+Antimony [Sb-124],12206
+Antimony [Sb-125],12207
+Tellurium [Te-132],12208
+"Iodine [I-126], elementary",12209
+"Iodine [I-131], elementary",12210
+"Iodine [I-132], elementary",12211
+"Iodine [I-133], elementary",12212
+Xenon [Xe-133],12213
+Caesium [Cs-134],12214
+Caesium [Cs-136],12215
+Caesium [Cs-137],12216
+Barium [Ba-133],12217
+Barium [Ba-140],12218
+Cerium [Ce-139],12219
+Cerium [Ce-141],12220
+Cerium [Ce-144],12221
+Lanthanum [La-140],12222
+Neodymium [Nd-147],12223
+Europium [Eu-152],12224
+Tantalum [Ta-182],12225
+Iridium [Ir-192],12226
+Mercury [Hg-203],12227
+Bismuth [Bi-212],12228
+Bismuth [Bi-213],12229
+Lead [Pb-212],12230
+Lead [Pb-214],12231
+Radium [Ra-226],12232
+Actinium [Ac-228],12233
+Thorium [Th-232],12234
+Uranium [U-234],12235
+Uranium [U-235],12236
+Uranium [U-238],12237
+Plutonium [Pu-238],12238
+Neptunium [Np-239],12239
+Americium [Am-241],12240
+Sum of Plutonium [Pu-239] and [Pu-240],12241
+Gold [Au-198],12242
+"C2H2Cl2F2 (1,2-dichloro-1,1-difluoroethane, HCFC-132b)",12243
+"C2H2ClF3 (2-chloro-1,1,1-trifluoroethane, HCFC-133a)",12244
+"C3H2F6 (1,1,1,3,3,3-hexafluoropropane, HFC-236fa)",12245
+Tellurium [Te-131],12246
+Neodymium [Nd-137],12247
+Attenuated backscatter,12248
+Relative humidity (with respect to water),12249
+Specific humidity,12250
+Relative attenuated backscatter,12251
