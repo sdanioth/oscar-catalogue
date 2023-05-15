@@ -1,0 +1,2 @@
+WIGOSstationIdentifier,ObservedVariableAtmosphere,ObservingMethodAtmosphere,Geometry,ProgramAffiliation,beginPositionDataGeneration,Manufacturer,Model,ScheduleStartMonth,ScheduleEndMonth,ScheduleStartWeekday,ScheduleEndWeekday,ScheduleStartHour,ScheduleEndHour,ScheduleStartMinutes,ScheduleEndMinutes,temporalReportingInterval,MeasurementUnit,SourceOfObservation,samplingStrategy
+0-404-300-TestMittwoch,224,245,point,GTOS,2023-05-01,,,1,12,6,7,00,23,00,59,PT10M,m3,humanObservation,inapplicable

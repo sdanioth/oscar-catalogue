@@ -1,2 +1,0 @@
-Name,WIGOSstationIdentifier,DateEstablished,Latitude,Longitude,Altitude,GeopositioningMethod,WMORegion,Territory,StationType,ProgramAffiliation,ObservedVariableAtmosphere,Geometry
-Obs test,0-404-300-obsTest,2023-05-01,-4.34,+3.23,345,unknown,africa,KEN,lakeRiverFixed,GTOS,224,unknown

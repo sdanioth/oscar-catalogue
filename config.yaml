@@ -5,8 +5,8 @@ logging: /home/sdanioth/Documents/git/oscar-facility-catalogue/logging/
 
 # source file
 #FacilitySource: /home/sdanioth/Documents/git/oscar-catalogue/example-facility-catalogue_base.csv
-FacilitySource: /home/sdanioth/Documents/git/oscar-catalogue/KADI_TEST_SURVEY.csv
-ObservationSource: /home/sdanioth/Documents/git/oscar-catalogue/example-observation-catalogue.csv
+FacilitySource: /home/sdanioth/Documents/git/oscar-catalogue/Facility.csv
+ObservationSource: /home/sdanioth/Documents/git/oscar-catalogue/Observation.csv
 
 # target file
 FacilityTarget: /home/sdanioth/Documents/git/oscar-catalogue/oscar-facility-catalogue/
