@@ -97,6 +97,7 @@
                     <wmdr:programAffiliation xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/ProgramAffiliation/{{ facility['ProgramAffiliation'] }}"/>
                 </wmdr:ProgramAffiliation>
             </wmdr:programAffiliation>
+{% for var in facility['variables'] %}
             <wmdr:observation xlink:type="simple">
                 <wmdr:ObservingCapability>
                     <gml:boundedBy xsi:nil="true"/>
@@ -109,7 +110,7 @@
                             <om:phenomenonTime xlink:type="simple"/>
                             <om:resultTime xlink:type="simple"/>
                             <om:procedure xsi:nil="true"/>
-                            <om:observedProperty xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/{{ facility['ObservedVariableAtmosphere'] }}"/>
+                            <om:observedProperty xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/{{ var }}"/>
                             <om:featureOfInterest xsi:nil="true"/>
                             <om:result xlink:type="simple">
                                 <wmdr:ResultSet/>
@@ -118,6 +119,7 @@
                     </wmdr:observation>
                 </wmdr:ObservingCapability>
             </wmdr:observation>
+{% endfor %}
         </wmdr:ObservingFacility>
     </wmdr:facility>
 </wmdr:WIGOSMetadataRecord>

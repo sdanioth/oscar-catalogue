@@ -109,15 +109,19 @@ class FacilityCatalogue:
                 reader = csv.DictReader( f )
                 files = []
                 for row in reader:
-                    var = 'ObservedVariableAtmosphere'
+                    var = 'WIGOSstationIdentifier'
                     d1 = { key: sanitize(row[key]) for key in row.keys() if key != var }
                     for ele in row[var].split(','):
                         facility = {var: ele.strip(), 'uuid': uuid.uuid4()}
                         facility.update(d1)
+                        variables = facility['ObservedVariableAtmosphere']
+                        variables = variables.split(",")
+                        facility = {var: ele.strip(), 'variables': variables}
+                        facility.update(d1)
 
                         # generate XML file
                         xml = template.render(header=self.header, facility=facility)
-                        file = os.path.join(self.target, "%s %s %s.xml" % (facility['Name'], facility['Territory'], facility['ObservedVariableAtmosphere']))
+                        file = os.path.join(self.target, "%s %s.xml" % (facility['Name'], facility['WIGOSstationIdentifier']))
                         file = file.replace(" ", "_")
                         files.append(file)
                         with open(file, 'w') as f:
