@@ -15,6 +15,7 @@ import uuid
 import yaml
 import io
 from pyoscar import OSCARClient
+from dictionaries_getWMDRnotation import get_WMDR_notation, make_dictionary, get_WMDR_notation_2
 
 
 
@@ -114,10 +115,10 @@ class FacilityCatalogue:
                     for ele in row[var].split(','):
                         facility = {var: ele.strip(), 'uuid': uuid.uuid4()}
                         facility.update(d1)
-                        variables = facility['ObservedVariableAtmosphere']
-                        variables = variables.split(",")
-                        facility = {var: ele.strip(), 'variables': variables}
-                        facility.update(d1)
+
+
+                        facility = get_WMDR_notation(csv_source=facility,label="ObservedVariableAtmosphere")
+
 
                         # generate XML file
                         xml = template.render(header=self.header, facility=facility)

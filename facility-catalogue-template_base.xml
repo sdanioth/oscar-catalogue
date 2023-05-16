@@ -97,7 +97,7 @@
                     <wmdr:programAffiliation xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/ProgramAffiliation/{{ facility['ProgramAffiliation'] }}"/>
                 </wmdr:ProgramAffiliation>
             </wmdr:programAffiliation>
-{% for var in facility['variables'] %}
+{% for var in facility['ObservedVariableAtmosphere'] %}
             <wmdr:observation xlink:type="simple">
                 <wmdr:ObservingCapability>
                     <gml:boundedBy xsi:nil="true"/>
