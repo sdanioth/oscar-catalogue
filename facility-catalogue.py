@@ -15,7 +15,8 @@ import uuid
 import yaml
 import io
 from pyoscar import OSCARClient
-from dictionaries_getWMDRnotation import get_WMDR_notation, make_dictionary, get_WMDR_notation_2
+import dateutil.parser
+from dictionaries_getWMDRnotation import get_WMDR_notation
 
 
 
@@ -64,6 +65,7 @@ class FacilityCatalogue:
             self.source = os.path.expanduser(config['FacilitySource'])
             self.target = os.path.expanduser(config['FacilityTarget'])
             self.template = config['FacilityTemplate']
+            self.variablesWMDR = config['variablesWMDR']
             self.header = { 'dtm': time.strftime("%Y-%m-%dT%H:%M:%S"),
                     'individualName': config['individualName'],
                             'organisationName': config['organisationName'],
@@ -72,8 +74,10 @@ class FacilityCatalogue:
             self.upload = config['upload']
             self.proxies = config['proxies']
             self.token = config['token']
+            self.variablesWMDR = config['variablesWMDR']
             url = self.upload
             token = self.token
+
 
 
         except Exception as err:
@@ -103,6 +107,8 @@ class FacilityCatalogue:
             templateLoader = jinja2.FileSystemLoader(searchpath="./")
             templateEnv = jinja2.Environment(loader=templateLoader)
             template = templateEnv.get_template(self.template)
+            variablesWMDR = self.variablesWMDR
+
 
             # read source file and convert to list of dictionaries, one for
             # each combination of manufacturer, model, variable
@@ -116,9 +122,14 @@ class FacilityCatalogue:
                         facility = {var: ele.strip(), 'uuid': uuid.uuid4()}
                         facility.update(d1)
 
+                        # date in correct format (YYYY-MM-DD)
+                        facility['DateEstablished'] = dateutil.parser.parse(facility['DateEstablished'],fuzzy=True).date()
 
-                        facility = get_WMDR_notation(csv_source=facility,label="ObservedVariableAtmosphere")
-
+                        print("facility1:", facility)
+                        # get WMDR Codes Register notation
+                        for var in self.variablesWMDR:
+                            facility = get_WMDR_notation(csv_source=facility,label=var)
+                            print("facility2",var,":", facility)
 
                         # generate XML file
                         xml = template.render(header=self.header, facility=facility)

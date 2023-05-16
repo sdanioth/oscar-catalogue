@@ -69,7 +69,7 @@
                             <gml:pos>{{ facility['Latitude'] }} {{ facility['Longitude'] }} {{ facility['Altitude'] }}</gml:pos>
                         </gml:Point>
                     </wmdr:geoLocation>
-                    <wmdr:geopositioningMethod xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/GeopositioningMethod/{{ facility['GeopositioningMethod'] }}"/>
+                    <wmdr:geopositioningMethod xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/GeopositioningMethod/{{ facility['GeopositioningMethod'][0] }}"/>
                     <wmdr:validPeriod xlink:type="simple">
                         <gml:TimePeriod gml:id="uuid-{{ facility['uuid'] }}-2">
                             <gml:beginPosition></gml:beginPosition>
@@ -78,12 +78,12 @@
                     </wmdr:validPeriod>
                 </wmdr:GeospatialLocation>
             </wmdr:geospatialLocation>
-            <wmdr:facilityType xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/FacilityType/{{ facility['StationType'] }}"/>
+            <wmdr:facilityType xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/FacilityType/{{ facility['FacilityType'][0] }}"/>
             <wmdr:dateEstablished>{{ facility['DateEstablished'] }}</wmdr:dateEstablished>
-            <wmdr:wmoRegion xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/WMORegion/{{ facility['WMORegion'] }}"/>
+            <wmdr:wmoRegion xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/WMORegion/{{ facility['WMORegion'][0] }}"/>
             <wmdr:territory>
                 <wmdr:Territory>
-                    <wmdr:territoryName xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/TerritoryName/{{ facility['Territory'] }}"/>
+                    <wmdr:territoryName xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/TerritoryName/{{ facility['TerritoryName'][0] }}"/>
                     <wmdr:validPeriod xlink:type="simple">
                         <gml:TimePeriod gml:id="uuid-{{ facility['uuid'] }}-3">
                             <gml:beginPosition></gml:beginPosition>
@@ -94,7 +94,7 @@
             </wmdr:territory>
             <wmdr:programAffiliation>
                 <wmdr:ProgramAffiliation>
-                    <wmdr:programAffiliation xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/ProgramAffiliation/{{ facility['ProgramAffiliation'] }}"/>
+                    <wmdr:programAffiliation xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/ProgramAffiliation/{{ facility['ProgramAffiliation'][0] }}"/>
                 </wmdr:ProgramAffiliation>
             </wmdr:programAffiliation>
 {% for var in facility['ObservedVariableAtmosphere'] %}
@@ -102,11 +102,11 @@
                 <wmdr:ObservingCapability>
                     <gml:boundedBy xsi:nil="true"/>
                     <wmdr:facility xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/{{ facility[WIGOSstationIdentifier] }}"/>
-                    <wmdr:programAffiliation xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/ProgramAffiliation/{{ facility['ProgramAffiliation'] }}"/>
+                    <wmdr:programAffiliation xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/ProgramAffiliation/{{ facility['ProgramAffiliation'][0] }}"/>
                     <wmdr:observation xlink:type="simple">
                         <om:OM_Observation>
                             <gml:boundedBy xsi:nil="true"/>
-                            <om:type xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/Geometry/{{ facility['Geometry'] }}"/>
+                            <om:type xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/Geometry/{{ facility['Geometry'][0] }}"/>
                             <om:phenomenonTime xlink:type="simple"/>
                             <om:resultTime xlink:type="simple"/>
                             <om:procedure xsi:nil="true"/>
