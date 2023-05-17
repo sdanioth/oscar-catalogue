@@ -4,8 +4,7 @@
 logging: /home/sdanioth/Documents/git/oscar-facility-catalogue/logging/
 
 # source file
-#FacilitySource: /home/sdanioth/Documents/git/oscar-catalogue/example-facility-catalogue_base.csv
-FacilitySource: /home/sdanioth/Documents/git/oscar-catalogue/Facility_numVar.csv
+FacilitySource: /home/sdanioth/Documents/git/oscar-catalogue/example-facility-catalogue_base.csv
 ObservationSource: /home/sdanioth/Documents/git/oscar-catalogue/Observation.csv
 
 # target file

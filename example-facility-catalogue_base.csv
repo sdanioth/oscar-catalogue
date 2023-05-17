@@ -1,2 +1,2 @@
-WIGOSstationIdentifier,Name,SupervisingOrganization,DateEstablished,Latitude,Longitude,Altitude,GeopositioningMethod,StationType,WMORegion,Territory,ProgramAffiliation,Geometry,ObservedVariableAtmosphere
-0-756-44444-baseTest,Sarina Base template test,MeteoSwiss,2021-04-05,8.6,8.4,204,GPS,landFixed,europe,CHE,GTOS,point,327
+Name,WIGOSstationIdentifier,DateEstablished,Latitude,Longitude,Altitude,GeopositioningMethod,WMORegion,TerritoryName,FacilityType,ProgramAffiliation,ObservedVariableAtmosphere,Geometry
+final test wed,0-404-300-FinalTestWed,2023-05-14,2.324,-3.2131,3235,LORAN,Africa,Kenya,Lake/River (fixed),Non-affiliated,"Air temperature (at specified distance from reference surface), Extreme temperature (min max) (at specified distance from reference surface), Humidity (at specified distance from reference surface), Amount of precipitation, Type of precipitation",Line
