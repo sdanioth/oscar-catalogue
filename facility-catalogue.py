@@ -130,10 +130,11 @@ class FacilityCatalogue:
                         for var in self.variablesWMDR:
                             facility = get_WMDR_notation(csv_source=facility,label=var)
                             print("facility2",var,":", facility)
+                            print("Name:", facility["Name"])
 
                         # generate XML file
                         xml = template.render(header=self.header, facility=facility)
-                        file = os.path.join(self.target, "%s %s.xml" % (facility['Name'], facility['WIGOSstationIdentifier']))
+                        file = os.path.join(self.target, "%s.xml" % (facility['WIGOSstationIdentifier']))
                         file = file.replace(" ", "_")
                         files.append(file)
                         with open(file, 'w') as f:

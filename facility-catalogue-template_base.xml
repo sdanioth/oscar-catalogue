@@ -95,6 +95,17 @@
             <wmdr:programAffiliation>
                 <wmdr:ProgramAffiliation>
                     <wmdr:programAffiliation xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/ProgramAffiliation/{{ facility['ProgramAffiliation'][0] }}"/>
+                    <wmdr:reportingStatus>
+                        <wmdr:ReportingStatus>
+                            <wmdr:reportingStatus xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/ReportingStatus/{{ facility['ReportingStatus'][0] }}"/>
+                            <wmdr:validPeriod xlink:type="simple">
+                                <gml:TimePeriod gml:id="uuid-{{ facility['uuid'] }}-4">
+                                    <gml:beginPosition>{{ facility['DateEstablished'] }}</gml:beginPosition>
+                                    <gml:endPosition/>
+                                </gml:TimePeriod>
+                            </wmdr:validPeriod>
+                        </wmdr:ReportingStatus>
+                    </wmdr:reportingStatus>
                 </wmdr:ProgramAffiliation>
             </wmdr:programAffiliation>
 {% for var in facility['ObservedVariableAtmosphere'] %}

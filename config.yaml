@@ -4,7 +4,7 @@
 logging: /home/sdanioth/Documents/git/oscar-facility-catalogue/logging/
 
 # source file
-FacilitySource: /home/sdanioth/Documents/git/oscar-catalogue/example-facility-catalogue_base.csv
+FacilitySource: /home/sdanioth/Documents/git/oscar-catalogue/KCSAP_AWS.csv
 ObservationSource: /home/sdanioth/Documents/git/oscar-catalogue/Observation.csv
 
 # target file
@@ -24,8 +24,7 @@ variablesWMDR:
 - "ProgramAffiliation"
 - "TerritoryName"
 - "GeopositioningMethod"
-
-
+- "ReportingStatus"
 
 
 # header information
