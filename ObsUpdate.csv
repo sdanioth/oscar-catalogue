@@ -1,0 +1,2 @@
+WIGOSstationIdentifier,ObservedVariableAtmosphere,ObservingMethodAtmosphere,Geometry,ProgramAffiliation,beginPositionDataGeneration,Manufacturer,Model,ScheduleStartMonth,ScheduleEndMonth,ScheduleStartWeekday,ScheduleEndWeekday,ScheduleStartHour,ScheduleEndHour,ScheduleStartMinutes,ScheduleEndMinutes,temporalReportingInterval,SourceOfObservation,samplingStrategy
+0-404-300-FinalTestWed,Visibility,(Ruler for) rain gauge,Volume,Non-affiliated,2023-05-10,,,January,December,Monday,Sunday,0,23,0,59,PT3H,Instrumental manual reading,Discrete

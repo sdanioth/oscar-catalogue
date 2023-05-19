@@ -41,11 +41,11 @@
         <wmdr:ObservingCapability>
             <gml:boundedBy xsi:nil="true"/>
             <wmdr:facility xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/{{ observation['WIGOSstationIdentifier'] }}"/>
-            <wmdr:programAffiliation xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/ProgramAffiliation/{{ observation['ProgramAffiliation'] }}"/>
+            <wmdr:programAffiliation xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/ProgramAffiliation/{{ observation['ProgramAffiliation'][0] }}"/>
             <wmdr:observation xlink:type="simple">
                 <om:OM_Observation>
                     <gml:boundedBy xsi:nil="true"/>
-                    <om:type xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/Geometry/{{ observation['Geometry'] }}"/>
+                    <om:type xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/Geometry/{{ observation['Geometry'][0] }}"/>
                     <om:metadata xlink:type="simple">
                         <gmd:MD_Metadata>
                         <gmd:contact xlink:type="simple">
@@ -69,7 +69,7 @@
                             <gml:boundedBy xsi:nil="true"/>
                             <wmdr:deployedEquipment xlink:type="simple">
                                 <wmdr:Equipment>
-                                <gml:identifier codeSpace="http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/{{ observation['ObservedVariableAtmosphere'] }}"/>
+                                <gml:identifier codeSpace="http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/{{ observation['ObservedVariableAtmosphere'][0] }}"/>
                                 <gml:boundedBy xsi:nil="true"/>
                                 <wmdr:responsibleParty>
                                     <wmdr:ResponsibleParty>
@@ -82,7 +82,7 @@
                                 </wmdr:responsibleParty>
                                 <wmdr:manufacturer>{{ observation['Manufacturer'] }}</wmdr:manufacturer>
                                 <wmdr:model>{{ observation['Model'] }}</wmdr:model>
-                                <wmdr:observingMethod xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/ObservingMethodAtmosphere/{{ observation['ObservingMethodAtmosphere'] }}"/>
+                                <wmdr:observingMethod xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/ObservingMethodAtmosphere/{{ observation['ObservingMethodAtmosphere'][0] }}"/>
                                 <wmdr:observingMethodDetails>{{ observation['observingMethodDetails'] }}</wmdr:observingMethodDetails>
                                 <wmdr:equipmentLog xlink:type="simple">
                                     <wmdr:EquipmentLog>
@@ -103,10 +103,10 @@
                                 </wmdr:validPeriod>
                                 <wmdr:schedule>
                                     <wmdr:Schedule>
-                                    <wmdr:startMonth>{{ observation['ScheduleStartMonth'] }}</wmdr:startMonth>
-                                    <wmdr:endMonth>{{ observation['ScheduleEndMonth'] }}</wmdr:endMonth>
-                                    <wmdr:startWeekday>{{ observation['ScheduleStartWeekday'] }}</wmdr:startWeekday>
-                                    <wmdr:endWeekday>{{ observation['ScheduleEndWeekday'] }}</wmdr:endWeekday>
+                                    <wmdr:startMonth>{{ observation['ScheduleStartMonth'][0] }}</wmdr:startMonth>
+                                    <wmdr:endMonth>{{ observation['ScheduleEndMonth'][0] }}</wmdr:endMonth>
+                                    <wmdr:startWeekday>{{ observation['ScheduleStartWeekday'][0] }}</wmdr:startWeekday>
+                                    <wmdr:endWeekday>{{ observation['ScheduleEndWeekday'][0] }}</wmdr:endWeekday>
                                     <wmdr:startHour>{{ observation['ScheduleStartHour'] }}</wmdr:startHour>
                                     <wmdr:endHour>{{ observation['ScheduleEndHour'] }}</wmdr:endHour>
                                     <wmdr:startMinute>{{ observation['ScheduleStartMinutes'] }}</wmdr:startMinute>
@@ -115,7 +115,7 @@
                                 </wmdr:schedule>
                                 <wmdr:sampling>
                                     <wmdr:Sampling>
-                                    <wmdr:samplingStrategy xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/SamplingStrategy/{{ observation['samplingStrategy'] }}"/>
+                                    <wmdr:samplingStrategy xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/SamplingStrategy/{{ observation['samplingStrategy'][0] }}"/>
                                     </wmdr:Sampling>
                                 </wmdr:sampling>
                                 <wmdr:reporting>
@@ -153,13 +153,13 @@
                             </wmdr:validPeriod>
                             <wmdr:localReferenceSurface xlink:type="simple"/>
                             <wmdr:applicationArea xlink:type="simple"/>
-                            <wmdr:sourceOfObservation xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/SourceOfObservation/{{ observation['SourceOfObservation'] }}"/>
+                            <wmdr:sourceOfObservation xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/SourceOfObservation/{{ observation['SourceOfObservation'][0] }}"/>
                             <wmdr:exposure xlink:type="simple"/>
                             </wmdr:Deployment>
                         </wmdr:deployment>
                         </wmdr:Process>
                     </om:procedure>
-                    <om:observedProperty xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/{{ observation['ObservedVariableAtmosphere'] }}"/>
+                    <om:observedProperty xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/{{ observation['ObservedVariableAtmosphere'][0] }}"/>
                     <om:featureOfInterest xsi:nil="true"/>
                     <om:result xlink:type="simple">
                         <wmdr:ResultSet>

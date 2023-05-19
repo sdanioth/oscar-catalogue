@@ -15,6 +15,8 @@ import uuid
 import yaml
 import io
 from pyoscar import OSCARClient
+import dateutil.parser
+from dictionaries_getWMDRnotation import get_WMDR_notation
 
 
 
@@ -63,6 +65,7 @@ class ObservationCatalogue:
             self.source = os.path.expanduser(config['ObservationSource'])
             self.target = os.path.expanduser(config['ObervatonTarget'])
             self.template = config['ObservationTemplate']
+            self.variablesWMDR_obs = config['variablesWMDR_obs']
             self.header = { 'dtm': time.strftime("%Y-%m-%dT%H:%M:%S"),
                     'individualName': config['individualName'],
                             'organisationName': config['organisationName'],
@@ -71,6 +74,7 @@ class ObservationCatalogue:
             self.upload = config['upload']
             self.proxies = config['proxies']
             self.token = config['token']
+            self.variablesWMDR_obs = config['variablesWMDR_obs']
             url = self.upload
             token = self.token
 
@@ -115,9 +119,18 @@ class ObservationCatalogue:
                         observation = {var: ele.strip(), 'uuid': uuid.uuid4()}
                         observation.update(d1)
 
+                        # date in correct format (YYYY-MM-DD)
+                        print("obs1:", observation)
+                        observation['beginPositionDataGeneration'] = dateutil.parser.parse(observation['beginPositionDataGeneration'],fuzzy=True).date()
+
+                        # get WMDR Codes Register notation
+                        for var in self.variablesWMDR_obs:
+                            observation = get_WMDR_notation(csv_source=observation,label=var)
+                        print("obs2:", observation)
+
                         # generate XML file
                         xml = template.render(header=self.header, observation=observation)
-                        file = os.path.join(self.target, "%s %s .xml" % (observation['WIGOSstationIdentifier'], observation['ObservedVariableAtmosphere']))
+                        file = os.path.join(self.target, "%s %s .xml" % (observation['WIGOSstationIdentifier'], observation['ObservedVariableAtmosphere'][0]))
                         file = file.replace(" ", "_")
                         files.append(file)
                         with open(file, 'w') as f:
@@ -138,6 +151,7 @@ if __name__ == '__main__':
     config = os.path.join(os.getcwd(), 'config.yaml')
     observation_catalogue = ObservationCatalogue(config)
     xml_files = observation_catalogue.csv2wmdr()
+
     with open(os.path.abspath(config), "r") as f:
         config = yaml.safe_load(f)
         f.close()

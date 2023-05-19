@@ -33,6 +33,7 @@ with open(os.path.abspath(config), "r") as f:
     f.close()
 
 variables = config['variablesWMDR']
+variables = config['variablesWMDR_obs']
 
 for var in variables:
     make_dictionary(label=var)

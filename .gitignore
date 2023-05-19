@@ -1,0 +1,14 @@
+logging/
+
+oscar-facility-catalogue/
+
+oscar-observation-catalogue/
+
+.vscode/
+.vscode*
+
+
+# caches and byte-complied code
+__pycache__/
+__pycache__*
+*.pyc

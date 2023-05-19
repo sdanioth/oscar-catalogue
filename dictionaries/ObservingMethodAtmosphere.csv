@@ -1,0 +1,251 @@
+label,notation
+Human observation,24
+(Optical) filter Instrument,58
+(Ruler for) rain gauge,59
+(Ultra)sonic anemometer,60
+Adsorption - scintillation counting,62
+Aerovane (wind vane with propeller),63
+Alpha counting,64
+Anemometer [general],65
+Aneroid barometer (evacuated capsule),66
+Anion exchange membrane (AEM),67
+Atmometer,68
+Atmospherics ('sferics') detection,69
+Atomic absorption spectrophotometry (AAS),70
+Atomic emission spectrophotometry (AES),71
+BSRN compliant instrument,72
+"Barometer, mercury column",73
+"Barometer, mercury-free column",74
+Beta counting,75
+Bimetal thermometer,76
+Bowen-ratio method,77
+Brewer,78
+Brewer-GDR,79
+Brewer-Mast Sonde,80
+Capacitive rain sensor,82
+Capillary electrophoresis (CE),83
+Carbon-Iodine Sonde (KC Sonde),84
+Colorimetric titration (Gran method),87
+Colorimetric titration [general],88
+Colorimetry (Saltzman),90
+Colorimetry (thorin),91
+Conductometry,94
+Cup anemometer,95
+Cup anemometer (3 or 4 cups),96
+Cuvette,97
+Denuder,98
+Denuder,99
+Disdrometer (drop spectrographs),102
+Disjunct eddy covariance method,103
+Dissipation method,105
+Dobson,106
+ECC Sonde,107
+Eddy accumulation method,108
+Eddy covariance method,109
+Electric conductivity (EC meter),110
+Electronic pressure transducer (silicon diaphragm),111
+Estimation from visual observation,112
+Evaporation pan and-or tank,113
+Faraday cup photochemistry,114
+Filter sampling + alpha counting,115
+Filter sampling + gamma spectrometry,116
+Flame-ionization detector (FID),119
+Flask sampling (analytical method unspecified),120
+Flow injection analyzer (FIA),121
+Flux variance method,123
+Gradient method,125
+Gravimetry [general],127
+High Performance Liquid Chromatography (HPLC),129
+Hot wire anemometer,130
+Hypsometer (water boiling point),132
+ICP-AES,133
+ICP-MS,134
+Indian Sonde,135
+Interferential method,136
+Ion Chromatography (IC) [general],137
+Doppler wind lidar,142
+Raman lidar,143
+Liquid-in-glass thermometer (mercury-free),144
+Lysimeter,146
+Mass balance method,147
+Mercury-in-glass thermometer,149
+Microbarometer (dewar),150
+Microtops,151
+Microtops,152
+Microtops,153
+Microwave profiler,154
+Microwave radiometry,155
+Microwave radiometry,156
+NILU_O_2,157
+NILU_O_3,158
+Ozone sonde (unspecified),166
+Passive Samplers [general],167
+Photoacoustic detection,168
+Pluviograph,170
+Potassium iodide (KI) method,171
+Potentiometry (ion-selective electrode),172
+Potentiometry (pH meter),173
+Pressure balance (piston),174
+Pressure plate (solid blade),175
+Pressure tube,176
+Propeller anemometer,177
+Pyranometer (measurement of IR radiation),179
+"Pyrradiometer (total global, UV+IR)",180
+Radio acoustic sounding system (RASS),181
+Radio acoustic sounding system (RASS),182
+Radio detection and ranging (Radar),183
+Radio detection and ranging (Radar) profiler,184
+Radiochemical Methods [general],185
+Regener Sonde (chemiluminescence),186
+"Resistance thermometer, thermistor",188
+SAOZ (UV-vis diode array spectrometer),189
+Scatterometer,190
+Separation + manometric determination,191
+Sonic thermometer,195
+Sound detection and ranging (Sodar) profiler,196
+Sunphotometry-Filter Radiometry,197
+Sunshine duration,198
+Surface chamber,199
+"Thermocouple, thermopile",201
+Thermometer-Thermoelement,202
+Tipping bucket rain gauge (totalizer),204
+Titration,205
+Transmissometer,207
+Transport modeling (model unspecified),208
+Turbidity measurement,209
+Umkehr method,210
+Volumetric measurement,211
+Weighing type rain gauge (totalizer),212
+Wet Chemical Methods [general],213
+Wind sock (textile tube),214
+Wind vane (solid blade),215
+Aerodyne mass spectrometer (AMS),217
+EUSAAR protocol,218
+"Filter + beta attenuation (betameter, beta gauge)",219
+Filter + light attenuation (aethalometer),220
+Mass Spectrometry (MS) [general],221
+Monitor for AeRosols and GAses (MARGA),222
+Particle induced x-ray emission (PIXE),223
+Particle soot absorption photometry (PSAP),224
+Thermo-optical analyzer (Sunset Labs),225
+X-ray fluorescence (XRF),226
+Aerodynamic particle sizing spectrometer (APS),227
+Aerosol backscatter sonde,228
+Light scattering,229
+"Nephelometry, integrating",230
+Cloud condensation nuclei (CCN) counter,231
+Condensation particle counter (CPC),232
+Continuous gravimetry,233
+"Differential mobility particle sizer (DMA, DMPS)",234
+Diffusion battery,235
+Electric mobility [general],236
+Electrostatic classifier,237
+Multiangle absorption photometry (MAAP),238
+Multistage impactor,239
+Optical particle counter (OPC),240
+Scanning mobility particle sizer (SMPS),241
+Twomey static thermal diffusion chamber,242
+Sun-tracking photometry,244
+Ceilometer,245
+Flexpart (dispersion modeling),246
+Flextra (trajectory modeling),247
+Hysplit (trajectory modeling),248
+Lagranto (trajectory modeling),249
+Thin film capacitance,250
+Chilled mirror,251
+Lithium chloride (LiCl),252
+Hair hygrometer-hygrograph,253
+Hygrometer [general],254
+IR absorption hygrometer,255
+Optical hygrometer,256
+UV fluorescence-based hygrometer (Lyman-α),257
+Electrical aspiration (Frankenberger type),258
+Mechanical aspiration,259
+(Ultra)sonic ranger,260
+Gradiated pole,261
+Snow pillow,262
+Bimetallic actinograph,263
+"Pyrheliometer (direct solar, broadband)",264
+"Pyrgeometer (global, infrared)",265
+"Pyranometer (global solar, broadband)",266
+Spectral pyranometer,267
+UV-vis spectrometry-radiometry,268
+Lidar for temperature observations,269
+Tetrachloromercurate (TCM) absorption - CL,270
+Colorimetry (ANSA),271
+Colorimetry (Griess),272
+"Colorimetry (indophenol, Bertholet)",273
+Colorimetry (mercury thiocyanate+iron alum),274
+Colorimetry (NEDA),275
+"Colorimetry (Nessler, K2HgI4)",276
+Colorimetry (sodium salicylate method for nitrate),277
+Colorimetry [general],278
+Filter sampling (analytical method unspecified),279
+Adsorption tube (charcoal) + elution + GC,280
+Filter sampling + combustion + IC,281
+Filter sampling + combustion + other,282
+Filter sampling + extraction + IC,283
+Filter sampling + extraction + other,284
+Filter sampling + gravimetry,285
+Impregnated filter,286
+Catalytic conversion 'Au' - CL,287
+Catalytic conversion 'Fe' - CL,288
+Catalytic conversion 'Mb' - CL,289
+Chemiluminescence (CL) [general],290
+Photolytic conversion - CL,291
+Monitor for AeRosols and GAses (MARGA) Metrohm,292
+Filter sampling + photo multiplier tube (PMT),293
+Fluorescence [general],294
+UV fluorescence,295
+Vacuum UV fluorescence,296
+Gas Chromatography (GC) [general],297
+GC-ECD,298
+GC-ECD-FID,299
+GC-ECD-MS,300
+GC-FID,301
+GC-HgO reduction-UV absorption,302
+GC-MS,303
+H2O2 conversion - IC,304
+Cavity ring-down spectroscopy (CRDS),305
+Cavity-enhanced absorption spectroscopy (CEAS),306
+Integrated cavity output spectroscopy (ICOS),307
+Laser induced fluorescence (LIF),308
+Laser photoacoustic spectroscopy (LPAS),309
+Laser spectroscopy [general],310
+Quantum cascade laser (QCL) spectroscopy,311
+Chemical ionization MS (CIMS) with matrix isolation,312
+Proton transfer reaction mass spectrometry (PTR-MS),313
+IR spectrometry-radiometry [general],314
+Light absorption photometry,315
+Long path absorption photometry (LOPAP),316
+Non-dispersive IR (NDIR) absorption,317
+Non-dispersive UV (NDUV),318
+UV absorption spectrometry-radiometry,319
+Integrated path differential absorption (IPDA) lidar,320
+Differential optical absorption (DOAS),321
+Fourier-transform IR spectroscopy (FTIR),322
+TCCON Fourier-transform IR spectroscopy (TCCON-FTIR),323
+Magnetron,325
+Klystron,326
+Radiosonde with NAVAID,327
+Radiosonde with radar tracking,328
+Radiosonde with radiotheodolite tracking,329
+Radiosonde with composite method tracking,330
+Radiosonde (tracking unspecified),331
+Pilot balloon with optical tracking),332
+Differential absorption lidar (DIAL),335
+Microwave radiometry,336
+Tunable diode lase spectroscopy (TDLS),338
+UV spectroradiometry,339
+Wet-bulb thermometer,340
+Backscatter lidar,341
+High spectral resolution (HSR) lidar,342
+Fog collection,343
+GC-CVAFS,344
+GC-TCD,345
+Electrostatic collection + alpha counting,346
+Tunable Infrared Laser Differential Absorption Spectroscopy (TILDAS),347
+Radionuclide decay counting [general],348
+IR-GFC,349
+inapplicable,inapplicable
+unknown,unknown
