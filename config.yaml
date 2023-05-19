@@ -4,8 +4,8 @@
 logging: /home/sdanioth/Documents/git/oscar-facility-catalogue/logging/
 
 # source file
-FacilitySource: /home/sdanioth/Documents/git/oscar-catalogue/KCSAP_AWS.csv
-ObservationSource: /home/sdanioth/Documents/git/oscar-catalogue/ObsUpdate.csv
+FacilitySource: /home/sdanioth/Documents/git/oscar-catalogue/example-facility-catalogue_base.csv
+ObservationSource: /home/sdanioth/Documents/git/oscar-catalogue/example-observation-catalogue.csv
 
 # target file
 FacilityTarget: /home/sdanioth/Documents/git/oscar-catalogue/oscar-facility-catalogue/
