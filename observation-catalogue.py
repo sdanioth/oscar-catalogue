@@ -120,13 +120,13 @@ class ObservationCatalogue:
                         observation.update(d1)
 
                         # date in correct format (YYYY-MM-DD)
-                        print("obs1:", observation)
+                        #print("obs1:", observation)
                         observation['beginPositionDataGeneration'] = dateutil.parser.parse(observation['beginPositionDataGeneration'],fuzzy=True).date()
 
                         # get WMDR Codes Register notation
                         for var in self.variablesWMDR_obs:
                             observation = get_WMDR_notation(csv_source=observation,label=var)
-                        print("obs2:", observation)
+                        #print("obs2:", observation)
 
                         # generate XML file
                         xml = template.render(header=self.header, observation=observation)

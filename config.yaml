@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 
 # logging
-logging: /home/sdanioth/Documents/git/oscar-facility-catalogue/logging/
+logging: /home/zue/users/sdanioth/Documents/Praktikum/git/oscar/oscar-catalogue/logging/
 
 # source file
-FacilitySource: /home/sdanioth/Documents/git/oscar-catalogue/example-facility-catalogue_base.csv
-ObservationSource: /home/sdanioth/Documents/git/oscar-catalogue/example-observation-catalogue.csv
+FacilitySource: /home/zue/users/sdanioth/Documents/Praktikum/git/oscar/oscar-catalogue/example-facility-catalogue_base.csv
+ObservationSource: /home/zue/users/sdanioth/Documents/Praktikum/git/oscar/oscar-catalogue/example-observation-catalogue.csv
 
 # target file
-FacilityTarget: /home/sdanioth/Documents/git/oscar-catalogue/oscar-facility-catalogue/
-ObervatonTarget: /home/sdanioth/Documents/git/oscar-catalogue/oscar-observation-catalogue/
+FacilityTarget: /home/zue/users/sdanioth/Documents/Praktikum/git/oscar/oscar-catalogue/oscar-facility-catalogue/
+ObervatonTarget: /home/zue/users/sdanioth/Documents/Praktikum/git/oscar/oscar-catalogue/oscar-observation-catalogue/
 
 # jinja2 template
 FacilityTemplate: facility-catalogue-template_base.xml
