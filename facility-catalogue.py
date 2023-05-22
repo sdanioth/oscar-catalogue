@@ -125,12 +125,12 @@ class FacilityCatalogue:
                         # date in correct format (YYYY-MM-DD)
                         facility['DateEstablished'] = dateutil.parser.parse(facility['DateEstablished'],fuzzy=True).date()
 
-                        print("facility1:", facility)
+                        #print("facility1:", facility)
                         # get WMDR Codes Register notation
                         for var in self.variablesWMDR:
                             facility = get_WMDR_notation(csv_source=facility,label=var)
-                            print("facility2",var,":", facility)
-                            print("Name:", facility["Name"])
+                            #print("facility2",var,":", facility)
+                            #print("Name:", facility["Name"])
 
                         # generate XML file
                         xml = template.render(header=self.header, facility=facility)
