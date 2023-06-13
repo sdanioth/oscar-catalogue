@@ -125,7 +125,7 @@ class ObservationCatalogue:
 
                         # get WMDR Codes Register notation
                         for var in self.variablesWMDR_obs:
-                            observation = get_WMDR_notation(csv_source=observation,label=var)
+                            observation = get_WMDR_notation(source=observation,label=var)
                         #print("obs2:", observation)
 
                         # generate XML file

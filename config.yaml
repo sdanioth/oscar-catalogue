@@ -4,7 +4,7 @@
 logging: /home/zue/users/sdanioth/Documents/Praktikum/git/oscar/oscar-catalogue/logging/
 
 # source file
-FacilitySource: /home/zue/users/sdanioth/Documents/Praktikum/git/oscar/oscar-catalogue/example-facility-catalogue_base.csv
+FacilitySource: "/home/zue/users/sdanioth/Documents/Praktikum/git/oscar/oscar-catalogue/example-facility-catalogue_base.json"
 ObservationSource: /home/zue/users/sdanioth/Documents/Praktikum/git/oscar/oscar-catalogue/example-observation-catalogue.csv
 
 # target file
@@ -52,4 +52,4 @@ proxies : {"http": "http://here-goes-the-proxy-address:port-number",
            "https": "https://here-goes-the-proxy-address:port-number"}
 
 # security token
-token: '378a00a9-3a77-4b7d-bf22-b42f839e9ff6'
+token: 'a8f9d57e-5fe0-426f-94cf-223ba61d0833'

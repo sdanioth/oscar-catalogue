@@ -1,0 +1,18 @@
+[
+    {
+        "Name": "Test direct json",
+        "WIGOSstationIdentifier": "0-404-300-CsvdirectJson",
+        "DateEstablished": "2023-06-10",
+        "Latitude": "2.324",
+        "Longitude": "-3.2131",
+        "Altitude": "3235",
+        "GeopositioningMethod": "LORAN",
+        "WMORegion": "Africa",
+        "TerritoryName": "Kenya",
+        "FacilityType": "Lake/River (fixed)",
+        "ProgramAffiliation": "Non-affiliated",
+        "ObservedVariableAtmosphere": "Air temperature (at specified distance from reference surface), Amount of precipitation, Type of precipitation",
+        "Geometry": "Line",
+        "ReportingStatus": "Operational"
+    }
+]
