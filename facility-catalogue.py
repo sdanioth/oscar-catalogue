@@ -19,6 +19,7 @@ from pyoscar import OSCARClient
 import dateutil.parser
 from dictionaries_getWMDRnotation import get_WMDR_notation
 from file_to_json import csv_to_json
+import ruamel.yaml
 
 
 class FacilityCatalogue:
@@ -122,6 +123,10 @@ class FacilityCatalogue:
                 if path.endswith(".csv"):
                     json_obj = csv_to_json(path)
                     json_obj = json.loads(json_obj)  
+                elif path.endswith(".yaml"):
+                    yaml = ruamel.yaml.YAML(typ='safe')
+                    with open(path) as fpi:
+                        json_obj = yaml.load(fpi)
                 elif path.endswith(".json"):
                     json_obj = json.load(f)
                 

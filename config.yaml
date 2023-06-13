@@ -4,7 +4,7 @@
 logging: /home/zue/users/sdanioth/Documents/Praktikum/git/oscar/oscar-catalogue/logging/
 
 # source file
-FacilitySource: "/home/zue/users/sdanioth/Documents/Praktikum/git/oscar/oscar-catalogue/example-facility-catalogue_base.json"
+FacilitySource: "/home/zue/users/sdanioth/Documents/Praktikum/git/oscar/oscar-catalogue/example-facility-catalogue_base.yaml"
 ObservationSource: /home/zue/users/sdanioth/Documents/Praktikum/git/oscar/oscar-catalogue/example-observation-catalogue.csv
 
 # target file
