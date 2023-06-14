@@ -14,9 +14,12 @@ from urllib3.util import Retry
 import uuid
 import yaml
 import io
+import json
 from pyoscar import OSCARClient
 import dateutil.parser
 from dictionaries_getWMDRnotation import get_WMDR_notation
+from file_to_json import csv_to_json
+import ruamel.yaml
 
 
 
@@ -100,44 +103,54 @@ class ObservationCatalogue:
 
         """
         try:
-            sanitize = lambda x: html.escape(x) if len(x) > 0 else 'unknown'
+            # sanitize = lambda x: html.escape(x) if len(x) > 0 else 'unknown'
 
             # read jinja template
             templateLoader = jinja2.FileSystemLoader(searchpath="./")
             templateEnv = jinja2.Environment(loader=templateLoader)
             template = templateEnv.get_template(self.template)
 
-            # read source file and convert to list of dictionaries, one for
-            # each combination of manufacturer, model, variable
-            with open(self.source) as f:
-                reader = csv.DictReader( f )
+            # read source file and convert to list of dictionaries
+            path = self.source
+
+            with open(path) as f:
+                
+                # if source is a .yaml or .csv file -> put them into right format (json list)
+                if path.endswith(".csv"):
+                    json_obj = csv_to_json(path)
+                    json_obj = json.loads(json_obj)  
+                elif path.endswith(".yaml"):
+                    yaml = ruamel.yaml.YAML(typ='safe')
+                    with open(path) as fpi:
+                        json_obj = yaml.load(fpi)
+                elif path.endswith(".json"):
+                    json_obj = json.load(f)
+
                 files = []
-                for row in reader:
-                    var = 'ObservedVariableAtmosphere'
-                    d1 = { key: sanitize(row[key]) for key in row.keys() if key != var }
-                    for ele in row[var].split(','):
-                        observation = {var: ele.strip(), 'uuid': uuid.uuid4()}
-                        observation.update(d1)
 
-                        # date in correct format (YYYY-MM-DD)
-                        #print("obs1:", observation)
-                        observation['beginPositionDataGeneration'] = dateutil.parser.parse(observation['beginPositionDataGeneration'],fuzzy=True).date()
+                for fac in range(0,len(json_obj)):
+                    observation = json_obj[fac]
+                    uuid_add = {'uuid':uuid.uuid4()}
+            
+                    observation.update(uuid_add)
 
-                        # get WMDR Codes Register notation
-                        for var in self.variablesWMDR_obs:
-                            observation = get_WMDR_notation(source=observation,label=var)
-                        #print("obs2:", observation)
+                    # date in correct format (YYYY-MM-DD)
+                    observation['beginPositionDataGeneration'] = dateutil.parser.parse(observation['beginPositionDataGeneration'],fuzzy=True).date()
 
-                        # generate XML file
-                        xml = template.render(header=self.header, observation=observation)
-                        file = os.path.join(self.target, "%s %s .xml" % (observation['WIGOSstationIdentifier'], observation['ObservedVariableAtmosphere'][0]))
-                        file = file.replace(" ", "_")
-                        files.append(file)
-                        with open(file, 'w') as f:
-                            f.write(xml)
-                            f.close()
-                        if verbose:
-                            self.logger.info("XML file saved to " + file)
+                    # get WMDR Codes Register notation
+                    for var in self.variablesWMDR_obs:
+                        observation = get_WMDR_notation(source=observation,label=var)
+
+                    # generate XML file
+                    xml = template.render(header=self.header, observation=observation)
+                    file = os.path.join(self.target, "%s %s .xml" % (observation['WIGOSstationIdentifier'], observation['ObservedVariableAtmosphere'][0]))
+                    file = file.replace(" ", "_")
+                    files.append(file)
+                    with open(file, 'w') as f:
+                        f.write(xml)
+                        f.close()
+                    if verbose:
+                        self.logger.info("XML file saved to " + file)
 
             return(files)
 
