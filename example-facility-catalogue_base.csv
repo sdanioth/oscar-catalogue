@@ -1,2 +1,2 @@
 Name,WIGOSstationIdentifier,DateEstablished,Latitude,Longitude,Altitude,GeopositioningMethod,WMORegion,TerritoryName,FacilityType,ProgramAffiliation,ObservedVariableAtmosphere,Geometry,ReportingStatus
-Test test csv to json,0-404-300-CsvJson,2023-06-10,2.324,-3.2131,3235,LORAN,Africa,Kenya,Lake/River (fixed),Non-affiliated,"Air temperature (at specified distance from reference surface), Amount of precipitation, Type of precipitation",Line,Operational
+Test csv Sari4,0-404-300-CsvTest4,2023-06-10,2.324,-3.2131,3235,LORAN,Africa,Kenya,Lake/River (fixed),Non-affiliated,"Air temperature (at specified distance from reference surface), Amount of precipitation, Type of precipitation",Line,Operational
