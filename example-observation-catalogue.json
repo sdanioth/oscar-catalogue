@@ -1,0 +1,23 @@
+[
+    {
+        "WIGOSstationIdentifier": "0-404-300-TestJune",
+        "ObservedVariableAtmosphere": "Visibility",
+        "ObservingMethodAtmosphere": "(Ruler for) rain gauge",
+        "Geometry": "Volume",
+        "ProgramAffiliation": "Non-affiliated",
+        "beginPositionDataGeneration": "2023-05-10",
+        "Manufacturer": "",
+        "Model": "",
+        "ScheduleStartMonth": "January",
+        "ScheduleEndMonth": "December",
+        "ScheduleStartWeekday": "Monday",
+        "ScheduleEndWeekday": "Sunday",
+        "ScheduleStartHour": "0",
+        "ScheduleEndHour": "23",
+        "ScheduleStartMinutes": "0",
+        "ScheduleEndMinutes": "59",
+        "temporalReportingInterval": "PT3H",
+        "SourceOfObservation": "Instrumental manual reading",
+        "samplingStrategy": "Discrete"
+    }
+]

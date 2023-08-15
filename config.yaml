@@ -4,8 +4,8 @@
 logging: /home/zue/users/sdanioth/Documents/Praktikum/git/oscar/oscar-catalogue/logging/
 
 # source file
-FacilitySource: /home/zue/users/sdanioth/Documents/Praktikum/git/oscar/oscar-catalogue/example-facility-catalogue_base.csv
-ObservationSource: /home/zue/users/sdanioth/Documents/Praktikum/git/oscar/oscar-catalogue/example-observation-catalogue.csv
+FacilitySource: /home/zue/users/sdanioth/Documents/Praktikum/git/oscar/oscar-catalogue/example-facility-catalogue_base.json
+ObservationSource: /home/zue/users/sdanioth/Documents/Praktikum/git/oscar/oscar-catalogue/example-observation-catalogue.yaml
 
 # target file
 FacilityTarget: /home/zue/users/sdanioth/Documents/Praktikum/git/oscar/oscar-catalogue/oscar-facility-catalogue/
