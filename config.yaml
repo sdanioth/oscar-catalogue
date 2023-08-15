@@ -52,4 +52,4 @@ proxies : {"http": "http://here-goes-the-proxy-address:port-number",
            "https": "https://here-goes-the-proxy-address:port-number"}
 
 # security token
-token: '378a00a9-3a77-4b7d-bf22-b42f839e9ff6'
+token: 'b5cc647b-21c2-4cbd-b0a4-d9d141db42c5'
