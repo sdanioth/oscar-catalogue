@@ -1,5 +1,5 @@
 # oscar-catalogue
-Create .xml file based on .csv / .json / .yaml file to catalogue new facility and / or observations in OSCAR/Surface
+Create .xml file based on .csv / .json / .yaml file to catalogue new facility and / or observations / instruments in OSCAR/Surface
 
 **based on https://github.com/joergklausen/oscar-instrument-catalogue**
 

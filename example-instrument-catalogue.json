@@ -1,0 +1,13 @@
+[
+    {
+        "ObservedVariableAtmosphere": "Visibility",
+        "observingMethod": "232",
+        "manufacturer": "unknown",
+        "model": "Test mod",
+        "observableRange": "unknown",
+        "specifiedAbsoluteUncertainty": "unknown",
+        "specifiedRelativeUncertainty": "unknown",
+        "driftPerUnitTime": "unknown",
+        "specificationLink": "https://srigc.com/home/product_detail/rgd---reduction-gas-detector"
+    }
+]

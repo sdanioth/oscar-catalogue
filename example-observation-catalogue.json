@@ -2,10 +2,10 @@
     {
         "WIGOSstationIdentifier": "0-404-300-TestJune",
         "ObservedVariableAtmosphere": "Visibility",
-        "ObservingMethodAtmosphere": "(Ruler for) rain gauge",
+        "ObservingMethodAtmosphere": "Condensation particle counter (CPC)",
         "Geometry": "Volume",
         "ProgramAffiliation": "Non-affiliated",
-        "beginPositionDataGeneration": "2023-05-10",
+        "beginPositionDataGeneration": "2022-02-24",
         "Manufacturer": "",
         "Model": "",
         "ScheduleStartMonth": "January",
