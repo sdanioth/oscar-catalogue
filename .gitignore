@@ -1,10 +1,10 @@
 logging/
 
-oscar-facility-catalogue/
+# oscar-facility-catalogue/
 
-oscar-observation-catalogue/
+# oscar-observation-catalogue/
 
-oscar-instrument-catalogue/
+# oscar-instrument-catalogue/
 
 .vscode/
 .vscode*

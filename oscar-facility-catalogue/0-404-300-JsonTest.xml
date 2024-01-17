@@ -3,7 +3,7 @@
     <gml:boundedBy xsi:nil="true"/>
     <wmdr:headerInformation>
         <wmdr:Header>
-            <wmdr:fileDateTime>2023-05-15T16:10:32</wmdr:fileDateTime>
+            <wmdr:fileDateTime>2024-01-17T16:26:54</wmdr:fileDateTime>
             <wmdr:recordOwner>
                 <gmd:CI_ResponsibleParty id="wmo_meteoswiss">
                     <gmd:organisationName>
@@ -39,8 +39,8 @@
     </wmdr:headerInformation>
     <wmdr:facility>
         <wmdr:ObservingFacility>
-            <gml:identifier codeSpace="0-404-300-TestMittwoch">0-404-300-TestMittwoch</gml:identifier>
-            <gml:name>Test Mittwoch </gml:name>
+            <gml:identifier codeSpace="0-404-300-JsonTest">0-404-300-JsonTest</gml:identifier>
+            <gml:name>Test Json Sari</gml:name>
             <gml:boundedBy xsi:nil="true"/>
             <wmdr:responsibleParty>
                 <wmdr:ResponsibleParty>
@@ -55,7 +55,7 @@
                          </gmd:CI_ResponsibleParty>
                     </wmdr:responsibleParty>
                     <wmdr:validPeriod xlink:type="simple">
-                        <gml:TimePeriod gml:id="uuid--1">
+                        <gml:TimePeriod gml:id="uuid-a8aa67ab-377e-4365-a18f-03d55afbfc2b-1">
                             <gml:beginPosition></gml:beginPosition>
                             <gml:endPosition/>
                         </gml:TimePeriod>
@@ -66,26 +66,26 @@
                 <wmdr:GeospatialLocation>
                     <wmdr:geoLocation xlink:type="simple">
                         <gml:Point>
-                            <gml:pos>-1.453 3.2341 123</gml:pos>
+                            <gml:pos>2.324 -3.2131 3235</gml:pos>
                         </gml:Point>
                     </wmdr:geoLocation>
-                    <wmdr:geopositioningMethod xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/GeopositioningMethod/map"/>
+                    <wmdr:geopositioningMethod xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/GeopositioningMethod/loran"/>
                     <wmdr:validPeriod xlink:type="simple">
-                        <gml:TimePeriod gml:id="uuid--2">
+                        <gml:TimePeriod gml:id="uuid-a8aa67ab-377e-4365-a18f-03d55afbfc2b-2">
                             <gml:beginPosition></gml:beginPosition>
                             <gml:endPosition/>
                         </gml:TimePeriod>
                     </wmdr:validPeriod>
                 </wmdr:GeospatialLocation>
             </wmdr:geospatialLocation>
-            <wmdr:facilityType xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/FacilityType/landFixed"/>
-            <wmdr:dateEstablished>2023-05-04</wmdr:dateEstablished>
+            <wmdr:facilityType xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/FacilityType/lakeRiverFixed"/>
+            <wmdr:dateEstablished>2023-06-10</wmdr:dateEstablished>
             <wmdr:wmoRegion xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/WMORegion/africa"/>
             <wmdr:territory>
                 <wmdr:Territory>
                     <wmdr:territoryName xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/TerritoryName/KEN"/>
                     <wmdr:validPeriod xlink:type="simple">
-                        <gml:TimePeriod gml:id="uuid--3">
+                        <gml:TimePeriod gml:id="uuid-a8aa67ab-377e-4365-a18f-03d55afbfc2b-3">
                             <gml:beginPosition></gml:beginPosition>
                             <gml:endPosition/>
                         </gml:TimePeriod>
@@ -95,6 +95,17 @@
             <wmdr:programAffiliation>
                 <wmdr:ProgramAffiliation>
                     <wmdr:programAffiliation xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/ProgramAffiliation/nonAffiliated"/>
+                    <wmdr:reportingStatus>
+                        <wmdr:ReportingStatus>
+                            <wmdr:reportingStatus xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/ReportingStatus/operational"/>
+                            <wmdr:validPeriod xlink:type="simple">
+                                <gml:TimePeriod gml:id="uuid-a8aa67ab-377e-4365-a18f-03d55afbfc2b-4">
+                                    <gml:beginPosition>2023-06-10</gml:beginPosition>
+                                    <gml:endPosition/>
+                                </gml:TimePeriod>
+                            </wmdr:validPeriod>
+                        </wmdr:ReportingStatus>
+                    </wmdr:reportingStatus>
                 </wmdr:ProgramAffiliation>
             </wmdr:programAffiliation>
 
@@ -132,7 +143,7 @@
                             <om:phenomenonTime xlink:type="simple"/>
                             <om:resultTime xlink:type="simple"/>
                             <om:procedure xsi:nil="true"/>
-                            <om:observedProperty xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/205"/>
+                            <om:observedProperty xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/210"/>
                             <om:featureOfInterest xsi:nil="true"/>
                             <om:result xlink:type="simple">
                                 <wmdr:ResultSet/>
@@ -154,7 +165,7 @@
                             <om:phenomenonTime xlink:type="simple"/>
                             <om:resultTime xlink:type="simple"/>
                             <om:procedure xsi:nil="true"/>
-                            <om:observedProperty xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/230"/>
+                            <om:observedProperty xlink:type="simple" xlink:href="http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/215"/>
                             <om:featureOfInterest xsi:nil="true"/>
                             <om:result xlink:type="simple">
                                 <wmdr:ResultSet/>
