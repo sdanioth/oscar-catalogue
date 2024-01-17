@@ -63,5 +63,5 @@ upload: https://oscardepl.wmo.int/surface/rest/api/wmd/upload/
 proxies : {"http": "http://here-goes-the-proxy-address:port-number",
            "https": "https://here-goes-the-proxy-address:port-number"}
 
-# security token
+# security token - for DEPL: mus be renewed weekly
 token: '61d1c002-7d8a-4fcc-9100-85b1c6b6b2e3'
