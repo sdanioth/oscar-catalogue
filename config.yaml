@@ -1,22 +1,22 @@
 # -*- coding: utf-8 -*-
 
 # logging
-logging: /home/sdanioth/Documents/git/oscar-catalogue/logging/
+logging: ../oscar-catalogue/logging/
 
 # source file
-# FacilitySource: /home/zue/users/sdanioth/Documents/Praktikum/git/oscar/oscar-catalogue/example-facility-catalogue_base.json
-# ObservationSource: /home/zue/users/sdanioth/Documents/Praktikum/git/oscar/oscar-catalogue/example-observation-catalogue.yaml
-FacilitySource: /home/sdanioth/Documents/git/oscar-catalogue/example-facility-catalogue_base.json
-ObservationSource: /home/sdanioth/Documents/git/oscar-catalogue/example-observation-catalogue.yaml
-InstrumentSource: /home/sdanioth/Documents/git/oscar-catalogue/example-instrument-catalogue.csv
+# FacilitySource: ../oscar/oscar-catalogue/example-facility-catalogue_base.json
+# ObservationSource: ../oscar/oscar-catalogue/example-observation-catalogue.yaml
+FacilitySource: ../oscar-catalogue/example-facility-catalogue_base.json
+ObservationSource: ../oscar-catalogue/example-observation-catalogue.yaml
+InstrumentSource: ../oscar-catalogue/example-instrument-catalogue.csv
 
 
 # target file
-# FacilityTarget: /home/zue/users/sdanioth/Documents/Praktikum/git/oscar/oscar-catalogue/oscar-facility-catalogue/
-# ObervatonTarget: /home/zue/users/sdanioth/Documents/Praktikum/git/oscar/oscar-catalogue/oscar-observation-catalogue/
-FacilityTarget: /home/sdanioth/Documents/git/oscar-catalogue/oscar-facility-catalogue/
-ObervatonTarget: /home/sdanioth/Documents/git/oscar-catalogue/oscar-observation-catalogue/
-InstrumentTarget: /home/sdanioth/Documents/git/oscar-catalogue/oscar-instrument-catalogue/
+# FacilityTarget: ../oscar/oscar-catalogue/oscar-facility-catalogue/
+# ObervatonTarget: ../oscar/oscar-catalogue/oscar-observation-catalogue/
+FacilityTarget: ../oscar-catalogue/oscar-facility-catalogue/
+ObervatonTarget: ../oscar-catalogue/oscar-observation-catalogue/
+InstrumentTarget: ../oscar-catalogue/oscar-instrument-catalogue/
 
 
 # jinja2 template
@@ -64,4 +64,4 @@ proxies : {"http": "http://here-goes-the-proxy-address:port-number",
            "https": "https://here-goes-the-proxy-address:port-number"}
 
 # security token
-token: 'b5cc647b-21c2-4cbd-b0a4-d9d141db42c5'
+token: '61d1c002-7d8a-4fcc-9100-85b1c6b6b2e3'

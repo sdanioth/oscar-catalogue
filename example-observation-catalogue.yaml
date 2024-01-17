@@ -1,4 +1,4 @@
-- WIGOSstationIdentifier: "0-404-300-JsonTest2"
+- WIGOSstationIdentifier: "0-404-300-JsonTest"
   ObservedVariableAtmosphere: "Visibility"
   ObservingMethodAtmosphere: "Condensation particle counter (CPC)"
   Geometry: "Volume"
